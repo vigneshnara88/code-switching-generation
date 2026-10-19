@@ -1,0 +1,917 @@
+{
+  "purpose": "Contextual lexical decisions, not automatic replacements or a complete language dictionary",
+  "entries": [
+    {
+      "id": "L001",
+      "form": "komputer",
+      "category": "established_malay_form",
+      "interpretation": "Malay computer noun",
+      "decision": "Label MS in ordinary Malay use; do not infer EN from etymology.",
+      "source_ids": [
+        "S24"
+      ],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Komputer saya rosak.",
+      "evidence_scope": "Dictionary entry inspected.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L002",
+      "form": "telefon",
+      "category": "established_malay_form",
+      "interpretation": "Malay phone noun or related lexical uses",
+      "decision": "Preserve the Malay form; a real English phrase elsewhere supplies English evidence.",
+      "source_ids": [
+        "S33"
+      ],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Telefon itu rosak.",
+      "evidence_scope": "Dictionary entry inspected.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L003",
+      "form": "fail",
+      "category": "homograph",
+      "interpretation": "Malay file noun; English verb fail",
+      "decision": "Determine sense and syntax; do not globally translate or label it.",
+      "source_ids": [
+        "S25"
+      ],
+      "rule_ids": [
+        "R34",
+        "R35"
+      ],
+      "authored_context": "Fail itu hilang. / I might fail.",
+      "evidence_scope": "Malay dictionary entry inspected; contrastive contexts authored.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L004",
+      "form": "air",
+      "category": "homograph",
+      "interpretation": "Malay water; English air",
+      "decision": "Resolve from phrase and audio; isolated form can remain AMBIG.",
+      "source_ids": [
+        "S06"
+      ],
+      "rule_ids": [
+        "R34"
+      ],
+      "authored_context": "Air itu sejuk. / The air is cold.",
+      "evidence_scope": "Primary LID paper discusses this ambiguity; contexts authored.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L005",
+      "form": "main",
+      "category": "homograph",
+      "interpretation": "Malay play; English principal/main",
+      "decision": "Do not classify by English dictionary membership alone.",
+      "source_ids": [],
+      "rule_ids": [
+        "R34"
+      ],
+      "authored_context": "Dia suka main. / The main door is open.",
+      "evidence_scope": "Authored contrast, not a mined corpus example.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L006",
+      "form": "can",
+      "category": "homograph",
+      "interpretation": "Malay colloquial opportunity in some contexts; English modal/container",
+      "decision": "Review the particular sense, register and pronunciation.",
+      "source_ids": [],
+      "rule_ids": [
+        "R34",
+        "R17"
+      ],
+      "authored_context": "Ada can? / You can enter.",
+      "evidence_scope": "Candidate ambiguity requiring contextual review; no frequency claim.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L007",
+      "form": "cat",
+      "category": "homograph",
+      "interpretation": "Malay paint; English animal",
+      "decision": "Keep Malay and English pronunciations separate in a pronunciation layer.",
+      "source_ids": [],
+      "rule_ids": [
+        "R34",
+        "R39"
+      ],
+      "authored_context": "Cat itu masih basah. / The cat is asleep.",
+      "evidence_scope": "Authored lexical contrast; pronunciation must be checked per voice.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L008",
+      "form": "jam",
+      "category": "homograph",
+      "interpretation": "Malay hour/clock; English jam",
+      "decision": "Use the phrase meaning; do not assume an English-looking spelling is a switch.",
+      "source_ids": [],
+      "rule_ids": [
+        "R34",
+        "R36"
+      ],
+      "authored_context": "Dua jam lagi. / There is a traffic jam.",
+      "evidence_scope": "Authored lexical contrast.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L009",
+      "form": "pin",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Potential Malay loan or English noun/verb; PIN may be an acronym",
+      "decision": "Use context; no missing-language evidence solely from the isolated spelling.",
+      "source_ids": [],
+      "rule_ids": [
+        "R34",
+        "R35",
+        "R36"
+      ],
+      "authored_context": "Please pin this notice.",
+      "evidence_scope": "Contextual decision candidate, not a global label.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L010",
+      "form": "bank",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Established shared financial term and other English senses",
+      "decision": "Use contextual evidence or SHARED; do not count the isolated financial noun as decisive.",
+      "source_ids": [],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Saya pergi ke bank.",
+      "evidence_scope": "Conservative project decision; not proof that all uses are ambiguous.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L011",
+      "form": "hotel",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Shared accommodation term",
+      "decision": "Apply the sentence context and loan policy.",
+      "source_ids": [],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Hotel itu penuh.",
+      "evidence_scope": "Conservative project decision.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L012",
+      "form": "video",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Shared media term",
+      "decision": "Avoid an automatic EN label from the spelling alone.",
+      "source_ids": [],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Video itu panjang.",
+      "evidence_scope": "Conservative project decision.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L013",
+      "form": "radio",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Shared broadcast term",
+      "decision": "Preserve the actual word and use contextual labels.",
+      "source_ids": [],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Radio itu rosak.",
+      "evidence_scope": "Conservative project decision.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L014",
+      "form": "internet",
+      "category": "shared_or_ambiguous",
+      "interpretation": "Widely shared technical term",
+      "decision": "Do not use as sole proof of English without stronger evidence.",
+      "source_ids": [],
+      "rule_ids": [
+        "R35"
+      ],
+      "authored_context": "Internet di sini perlahan.",
+      "evidence_scope": "Conservative project decision.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L015",
+      "form": "MRT",
+      "category": "entity_or_acronym",
+      "interpretation": "Transport acronym",
+      "decision": "Record spoken letters if audible; an expansion is a separate field.",
+      "source_ids": [],
+      "rule_ids": [
+        "R36"
+      ],
+      "authored_context": "Saya naik MRT.",
+      "evidence_scope": "Authored example; acronym alone excluded from strict evidence.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L016",
+      "form": "WhatsApp",
+      "category": "entity_or_acronym",
+      "interpretation": "Product name; also usable in verbal constructions",
+      "decision": "Distinguish entity mention from a contextually analyzed verb.",
+      "source_ids": [],
+      "rule_ids": [
+        "R36"
+      ],
+      "authored_context": "Hantar melalui WhatsApp.",
+      "evidence_scope": "Authored example; lexical role depends on context.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L017",
+      "form": "RM20",
+      "category": "numeric_notation",
+      "interpretation": "Currency amount",
+      "decision": "Preserve currency and value; no EN/MS proof from written digits.",
+      "source_ids": [],
+      "rule_ids": [
+        "R36"
+      ],
+      "authored_context": "Jumlahnya RM20.",
+      "evidence_scope": "Project handling of nonlexical notation.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L018",
+      "form": "SGD30",
+      "category": "numeric_notation",
+      "interpretation": "Currency amount",
+      "decision": "Do not replace with RM or convert the amount while rewriting.",
+      "source_ids": [],
+      "rule_ids": [
+        "R36"
+      ],
+      "authored_context": "I paid SGD30 semalam.",
+      "evidence_scope": "Project handling of nonlexical notation.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L019",
+      "form": "tak",
+      "category": "contextual_malay_form",
+      "interpretation": "tidak / negation",
+      "decision": "Preserve scope; distinguish inability from refusal.",
+      "source_ids": [
+        "S15"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya tak setuju.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L020",
+      "form": "nak",
+      "category": "contextual_malay_form",
+      "interpretation": "want/intend; sometimes another contraction in address",
+      "decision": "Resolve the construction; do not automatically expand to one word.",
+      "source_ids": [
+        "S15",
+        "S32"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya nak pergi.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L021",
+      "form": "dah",
+      "category": "contextual_malay_form",
+      "interpretation": "sudah / completed or changed state",
+      "decision": "Do not treat as a universal past-tense ending.",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya dah sampai.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L022",
+      "form": "ni",
+      "category": "contextual_malay_form",
+      "interpretation": "ini / proximal demonstrative or discourse use",
+      "decision": "Preserve the intended referent.",
+      "source_ids": [
+        "S01",
+        "S32"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Borang ni.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L023",
+      "form": "tu",
+      "category": "contextual_malay_form",
+      "interpretation": "itu / distal demonstrative or discourse use",
+      "decision": "Keep this/that distinction and context.",
+      "source_ids": [
+        "S01",
+        "S32"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Borang tu.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L024",
+      "form": "je",
+      "category": "contextual_malay_form",
+      "interpretation": "sahaja / just or only in common uses",
+      "decision": "Check whether restriction, reassurance or stance is intended.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Satu je.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L025",
+      "form": "kat",
+      "category": "contextual_malay_form",
+      "interpretation": "locative in conversational usage",
+      "decision": "Do not translate every occurrence as near.",
+      "source_ids": [
+        "S01"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya tunggu kat rumah.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L026",
+      "form": "tengah",
+      "category": "contextual_malay_form",
+      "interpretation": "ongoing action or middle, depending on construction",
+      "decision": "Distinguish aspectual from spatial meaning.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya tengah makan.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L027",
+      "form": "takde",
+      "category": "contextual_malay_form",
+      "interpretation": "conversational tak ada",
+      "decision": "Keep a declared surface spelling; do not silently expand a benchmark.",
+      "source_ids": [
+        "S01"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Takde orang kat sini.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L028",
+      "form": "korang",
+      "category": "contextual_malay_form",
+      "interpretation": "familiar plural you",
+      "decision": "Do not use for formal or singular addressees without support.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Korang nak pergi?",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L029",
+      "form": "diorang",
+      "category": "contextual_malay_form",
+      "interpretation": "colloquial they",
+      "decision": "Preserve plurality; do not assume formal-writing status.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Diorang belum sampai.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L030",
+      "form": "macam",
+      "category": "contextual_malay_form",
+      "interpretation": "like, kind or resemblance, depending on context",
+      "decision": "Do not turn a hedge into certainty.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Macam susah sikit.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L031",
+      "form": "pasal",
+      "category": "contextual_malay_form",
+      "interpretation": "about/because depending on construction",
+      "decision": "Separate topic from cause.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Kita bincang pasal kerja.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L032",
+      "form": "kita",
+      "category": "contextual_malay_form",
+      "interpretation": "ordinary inclusive we",
+      "decision": "Do not substitute for exclusive we when the source distinguishes it.",
+      "source_ids": [
+        "S14"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Kita boleh mula.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L033",
+      "form": "kami",
+      "category": "contextual_malay_form",
+      "interpretation": "ordinary exclusive we",
+      "decision": "Do not silently include the addressee.",
+      "source_ids": [
+        "S14"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Kami dah mula.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L034",
+      "form": "dia",
+      "category": "contextual_malay_form",
+      "interpretation": "third-person referent without grammatical gender",
+      "decision": "Do not guess he/she from the word alone.",
+      "source_ids": [],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Dia belum sampai.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L035",
+      "form": "kena",
+      "category": "contextual_malay_form",
+      "interpretation": "obligation or affected/passive-like construction among other senses",
+      "decision": "Resolve who acts and who is affected.",
+      "source_ids": [
+        "S01"
+      ],
+      "rule_ids": [
+        "R13",
+        "R14",
+        "R16",
+        "R17",
+        "R27",
+        "R37"
+      ],
+      "authored_context": "Saya kena submit. / Saya kena scam.",
+      "evidence_scope": "Interpretive guide; source-backed where IDs are supplied, otherwise authored contextual guidance requiring lexical review.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L036",
+      "form": "lah",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "context-sensitive particle",
+      "decision": "Do not append universally or count as sole Malay lexical evidence.",
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "Try dulu lah.",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L037",
+      "form": "kan",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "free particle or distinct suffix -kan",
+      "decision": "Analyze morphology versus confirmation/stance.",
+      "source_ids": [
+        "S32"
+      ],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "You dah check, kan?",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L038",
+      "form": "ke",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "directional preposition or conversational question use",
+      "decision": "Do not concatenate every occurrence with the next word.",
+      "source_ids": [
+        "S09"
+      ],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "You nak datang ke?",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L039",
+      "form": "ah",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "regional particle or hesitation",
+      "decision": "Identify function from delivery and context.",
+      "source_ids": [
+        "S05"
+      ],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "Okay ah?",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L040",
+      "form": "eh",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "attention, surprise or repair in different contexts",
+      "decision": "Do not add a new emotional stance to a source.",
+      "source_ids": [],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "Eh, bukan itu.",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L041",
+      "form": "okay",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "lexical adjective/acknowledgment or shared conversational item",
+      "decision": "A context-sensitive label; no universal filler or English rule.",
+      "source_ids": [],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "The result is okay. / Okay.",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L042",
+      "form": "uh",
+      "category": "particle_or_function_ambiguity",
+      "interpretation": "possible hesitation",
+      "decision": "A hesitation alone does not provide substantive English evidence.",
+      "source_ids": [],
+      "rule_ids": [
+        "R31",
+        "R33",
+        "R38"
+      ],
+      "authored_context": "Saya, uh, belum siap.",
+      "evidence_scope": "Authored contexts; distinguish source-backed particle observations from project labels.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L043",
+      "form": "check",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: semak/periksa according to sense",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Tolong check borang itu.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L044",
+      "form": "submit",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: hantar/serahkan according to task",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Saya belum submit borang.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L045",
+      "form": "print",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: cetak",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Saya nak print borang.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L046",
+      "form": "delete",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: padam",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Jangan delete fail itu.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L047",
+      "form": "download",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: muat turun",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Saya nak download fail itu.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L048",
+      "form": "upload",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: muat naik",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Saya belum upload gambar itu.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L049",
+      "form": "meeting",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: mesyuarat/pertemuan according to context",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Meeting itu esok.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L050",
+      "form": "deadline",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: tarikh akhir/batas masa according to context",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Deadline itu hari Jumaat.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L051",
+      "form": "follow up",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: susulan; determine the intended action",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Saya akan follow up esok.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L052",
+      "form": "ready",
+      "category": "english_candidate",
+      "interpretation": "English candidate; Malay interpretation: sedia/siap according to the predicate",
+      "decision": "Keep if it is the intended English insertion; do not automatically translate or assume its frequency.",
+      "source_ids": [],
+      "rule_ids": [
+        "R05",
+        "R20",
+        "R35"
+      ],
+      "authored_context": "Borang itu belum ready.",
+      "evidence_scope": "Newly authored lexical option, not individually attested in the cited studies.",
+      "automatic_replacement": false
+    },
+    {
+      "id": "L053",
+      "form": "di-check",
+      "category": "mixed_morphology",
+      "interpretation": "Malay passive prefix plus English stem",
+      "decision": "Store a MIXED parent and components; do not treat locative di as the same construction.",
+      "source_ids": [
+        "S09"
+      ],
+      "rule_ids": [
+        "R24",
+        "R25",
+        "R40"
+      ],
+      "authored_context": "Borang itu di-check semalam.",
+      "evidence_scope": "Orthographic convention supported; the complete mixed example is authored.",
+      "automatic_replacement": false
+    }
+  ]
+}

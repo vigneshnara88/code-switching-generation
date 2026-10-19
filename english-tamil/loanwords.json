@@ -1,0 +1,3911 @@
+{
+  "purpose": "Contextual candidate map for English material and Tamil grammatical boundaries under a declared mixed-script annotation policy.",
+  "apply_policy": {
+    "default": "Inspect the source context before applying any candidate, including high_confidence entries.",
+    "review_required": "Category names indicate review priority, not calibrated probabilities; uncertain language identity or morphology stays pending.",
+    "never_translate": "For transcription, do not translate or invent language switches. For rewriting, follow the declared source-faithfulness and orthography policy.",
+    "record_metadata": "Record each actual replacement, its source context and unresolved candidates; preserve original text."
+  },
+  "high_confidence": {
+    "ஃபர்ஸ்ட்": {
+      "latin": "first",
+      "notes": "English ordinal/discourse token."
+    },
+    "ஃபஸ்ட்": {
+      "latin": "first",
+      "notes": "First spelling variant."
+    },
+    "ஃபஸ்ட்டாருக்கனுன்": {
+      "latin": "first-ஆ இருக்கணும்",
+      "notes": "English first with Tamil phrase ending."
+    },
+    "ஃபார்": {
+      "latin": "for",
+      "notes": "English preposition in fixed English phrases."
+    },
+    "ஃபார்டி": {
+      "latin": "forty",
+      "notes": "English number."
+    },
+    "ஃபார்மல்": {
+      "latin": "formal",
+      "notes": "English adjective."
+    },
+    "ஃபார்ம்": {
+      "latin": "form",
+      "notes": "Fixes bad suffix parse from ஃபார்+ம்; English noun."
+    },
+    "ஃபார்வேர்ட்": {
+      "latin": "forward",
+      "notes": "English verb/adjective."
+    },
+    "ஃபாலோ": {
+      "latin": "follow",
+      "notes": "English predicate/root."
+    },
+    "ஃபாஸ்ட்": {
+      "latin": "fast",
+      "notes": "English adjective/adverb."
+    },
+    "ஃபிக்ஸ்": {
+      "latin": "fix",
+      "notes": "English verb/noun."
+    },
+    "ஃபிட்டா": {
+      "latin": "fit-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஃபினான்சியல்": {
+      "latin": "financial",
+      "notes": "English adjective."
+    },
+    "ஃபிப்த்": {
+      "latin": "fifth",
+      "notes": "English ordinal."
+    },
+    "ஃபிரசர்": {
+      "latin": "pressure",
+      "notes": "Pressure spelling variant."
+    },
+    "ஃபிரசர்ரா": {
+      "latin": "pressure-ஆ",
+      "notes": "English noun with Tamil adverbial suffix."
+    },
+    "ஃபிரசர்ற": {
+      "latin": "pressure-ஐ",
+      "notes": "English noun with Tamil accusative-like suffix."
+    },
+    "ஃபிரண்ட்ஸ்": {
+      "latin": "friends",
+      "notes": "Friends spelling variant."
+    },
+    "ஃபிரம்": {
+      "latin": "from",
+      "notes": "English preposition."
+    },
+    "ஃபீட்பேக்": {
+      "latin": "feedback",
+      "notes": "Business/training anchor."
+    },
+    "ஃபீலிங்": {
+      "latin": "feeling",
+      "notes": "English noun/verb form."
+    },
+    "ஃபீல்": {
+      "latin": "feel",
+      "notes": "English predicate/root."
+    },
+    "ஃபீல்டு": {
+      "latin": "field",
+      "notes": "English noun."
+    },
+    "ஃபீல்ட்": {
+      "latin": "field",
+      "notes": "English noun."
+    },
+    "ஃபுட்": {
+      "latin": "food",
+      "notes": "Food/domain anchor."
+    },
+    "ஃபுட்ஸ்": {
+      "latin": "foods",
+      "notes": "English plural noun."
+    },
+    "ஃபுல்": {
+      "latin": "full",
+      "notes": "Common English adjective."
+    },
+    "ஃபுல்லா": {
+      "latin": "full-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஃபுல்லாவே": {
+      "latin": "full-ஆவே",
+      "notes": "English adjective with Tamil emphatic adverbial suffix."
+    },
+    "ஃபெயிலியர்": {
+      "latin": "failure",
+      "notes": "English noun."
+    },
+    "ஃபெயில்": {
+      "latin": "fail",
+      "notes": "English predicate/root."
+    },
+    "ஃபேக்டர்": {
+      "latin": "factor",
+      "notes": "English noun."
+    },
+    "ஃபேக்ட்ஸ்": {
+      "latin": "facts",
+      "notes": "English plural noun."
+    },
+    "ஃபேமஸ்": {
+      "latin": "famous",
+      "notes": "English adjective."
+    },
+    "ஃபேமிலி": {
+      "latin": "family",
+      "notes": "Common English noun."
+    },
+    "ஃபேமிலிய": {
+      "latin": "family",
+      "notes": "English noun inflected in speech."
+    },
+    "ஃபேமிலியா": {
+      "latin": "family-ஆ",
+      "notes": "English noun with Tamil suffix."
+    },
+    "ஃபேமிலியோட": {
+      "latin": "family-ஓட",
+      "notes": "English noun with Tamil sociative/genitive suffix."
+    },
+    "ஃபேஷன்": {
+      "latin": "fashion",
+      "notes": "English noun; ஃ spelling disambiguates from passion more strongly than பேஷன்."
+    },
+    "ஃபேஸ்": {
+      "latin": "face",
+      "notes": "English verb/noun; reviewed contexts are face பண்ண constructions."
+    },
+    "ஃபை": {
+      "latin": "five",
+      "notes": "Reviewed contexts are number five."
+    },
+    "ஃபைண்ட்": {
+      "latin": "find",
+      "notes": "English verb."
+    },
+    "ஃபைனலி": {
+      "latin": "finally",
+      "notes": "English adverb."
+    },
+    "ஃபைனல்": {
+      "latin": "final",
+      "notes": "English adjective/noun."
+    },
+    "ஃபைன்": {
+      "latin": "fine",
+      "notes": "English adjective."
+    },
+    "ஃபைவ்": {
+      "latin": "five",
+      "notes": "English number token."
+    },
+    "ஃபோன்": {
+      "latin": "phone",
+      "notes": "Variant of phone."
+    },
+    "ஃபோர்": {
+      "latin": "four",
+      "notes": "In reviewed contexts this is English number four."
+    },
+    "ஃப்": {
+      "latin": "if",
+      "notes": "English function word variant when followed by English clause."
+    },
+    "ஃப்ரம்": {
+      "latin": "from",
+      "notes": "English preposition."
+    },
+    "ஃப்ரீ": {
+      "latin": "free",
+      "notes": "English adjective."
+    },
+    "ஃப்ரீயா": {
+      "latin": "free-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஃப்ரெண்ட்": {
+      "latin": "friend",
+      "notes": "English noun."
+    },
+    "ஃப்ரெண்ட்ஸ்": {
+      "latin": "friends",
+      "notes": "Friends spelling variant."
+    },
+    "அஃப்கோர்ஸ்": {
+      "latin": "of course",
+      "notes": "English discourse phrase compressed as one token."
+    },
+    "அக்கவுண்ட்": {
+      "latin": "account",
+      "notes": "English noun."
+    },
+    "அக்சப்ட்": {
+      "latin": "accept",
+      "notes": "English verb."
+    },
+    "அக்னாலேஜ்மென்": {
+      "latin": "acknowledgement",
+      "notes": "English noun."
+    },
+    "அக்ரிகல்ச்சர்": {
+      "latin": "agriculture",
+      "notes": "Education/work domain anchor."
+    },
+    "அசிஸ்டன்ட்": {
+      "latin": "assistant",
+      "notes": "English noun."
+    },
+    "அடிஷனல்": {
+      "latin": "additional",
+      "notes": "English adjective."
+    },
+    "அட்ஜஸ்": {
+      "latin": "adjust",
+      "notes": "English verb."
+    },
+    "அட்ஜஸ்ட்": {
+      "latin": "adjust",
+      "notes": "English predicate/root."
+    },
+    "அட்ஜஸ்ட்மென்ட்": {
+      "latin": "adjustment",
+      "notes": "English noun."
+    },
+    "அட்மிஷன்": {
+      "latin": "admission",
+      "notes": "English noun."
+    },
+    "அட்ரஸ்": {
+      "latin": "address",
+      "notes": "English noun."
+    },
+    "அட்லீஸ்ட்": {
+      "latin": "at least",
+      "notes": "English phrase token."
+    },
+    "அட்வர்டைஸ்மென்ட்": {
+      "latin": "advertisement",
+      "notes": "English noun."
+    },
+    "அட்வைஸ்": {
+      "latin": "advice",
+      "notes": "English noun."
+    },
+    "அட்வைஸ்சே": {
+      "latin": "advice-ஐ",
+      "notes": "English noun with Tamil object suffix."
+    },
+    "அண்டர்ஸ்டாண்ட்": {
+      "latin": "understand",
+      "notes": "English verb."
+    },
+    "அண்ட்": {
+      "latin": "and",
+      "notes": "English conjunction token."
+    },
+    "அனலைஸ்": {
+      "latin": "analyze",
+      "notes": "English verb."
+    },
+    "அப்ரிசேஷன்": {
+      "latin": "appreciation",
+      "notes": "English noun."
+    },
+    "அப்ளிகேஷன்": {
+      "latin": "application",
+      "notes": "English noun."
+    },
+    "அர்ஜெண்டா": {
+      "latin": "urgent-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "அர்ஜென்ட்": {
+      "latin": "urgent",
+      "notes": "English adjective."
+    },
+    "அவர்னஸ்": {
+      "latin": "awareness",
+      "notes": "English noun."
+    },
+    "அவுட்புட்": {
+      "latin": "output",
+      "notes": "English noun."
+    },
+    "அவுட்லெட்": {
+      "latin": "outlet",
+      "notes": "English noun."
+    },
+    "அவெய்லபுல்": {
+      "latin": "available",
+      "notes": "English adjective variant."
+    },
+    "அவேல்லபுல்": {
+      "latin": "available",
+      "notes": "English adjective variant."
+    },
+    "அஸ்": {
+      "latin": "as",
+      "notes": "Possible English as in phrases such as take me as / as well as; resolve from the complete phrase."
+    },
+    "ஆஃபர்": {
+      "latin": "offer",
+      "notes": "English noun/verb."
+    },
+    "ஆஃப்": {
+      "latin": "of",
+      "notes": "English preposition; apply only in derived orthographic view."
+    },
+    "ஆஃப்டர்": {
+      "latin": "after",
+      "notes": "English preposition/adverb."
+    },
+    "ஆக்சுவல்லி": {
+      "latin": "actually",
+      "notes": "Actually spelling variant."
+    },
+    "ஆக்ச்சுவலி": {
+      "latin": "actually",
+      "notes": "English adverb."
+    },
+    "ஆக்டிவிட்டீஸ்": {
+      "latin": "activities",
+      "notes": "English plural noun."
+    },
+    "ஆடியன்ஸ்": {
+      "latin": "audience",
+      "notes": "English noun."
+    },
+    "ஆண்ட்ரப்ரனர்": {
+      "latin": "entrepreneur",
+      "notes": "Business identity term."
+    },
+    "ஆன்ட்ரபினர்": {
+      "latin": "entrepreneur",
+      "notes": "Spelling variant of entrepreneur."
+    },
+    "ஆன்லைன்": {
+      "latin": "online",
+      "notes": "Tech/logistics anchor."
+    },
+    "ஆபிஸ்": {
+      "latin": "office",
+      "notes": "Office spelling variant."
+    },
+    "ஆபீஸர்": {
+      "latin": "officer",
+      "notes": "English role noun."
+    },
+    "ஆபீஸர்ஸ்": {
+      "latin": "officers",
+      "notes": "English plural role noun."
+    },
+    "ஆபீஸ்": {
+      "latin": "office",
+      "notes": "Work/location anchor."
+    },
+    "ஆப்பர்சூனிட்டிஸ்": {
+      "latin": "opportunities",
+      "notes": "Opportunities spelling variant."
+    },
+    "ஆப்பர்சூனிட்டீஸ்": {
+      "latin": "opportunities",
+      "notes": "English plural noun."
+    },
+    "ஆப்போர்சுனிட்டி": {
+      "latin": "opportunity",
+      "notes": "Business/work anchor."
+    },
+    "ஆப்போர்சுனிட்டில": {
+      "latin": "opportunity-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "ஆப்ரேஷன்": {
+      "latin": "operation",
+      "notes": "English noun."
+    },
+    "ஆப்ஷன்": {
+      "latin": "option",
+      "notes": "English noun."
+    },
+    "ஆம்பிஷன்": {
+      "latin": "ambition",
+      "notes": "English noun."
+    },
+    "ஆர்கனைசேஷன்": {
+      "latin": "organization",
+      "notes": "English noun."
+    },
+    "ஆர்ட்ஸ்": {
+      "latin": "arts",
+      "notes": "English academic/category noun."
+    },
+    "ஆல்வேஸ்": {
+      "latin": "always",
+      "notes": "English adverb."
+    },
+    "ஆஸ்": {
+      "latin": "as",
+      "notes": "English preposition/function word."
+    },
+    "இஃப்": {
+      "latin": "if",
+      "notes": "English conjunction transliteration variant."
+    },
+    "இங்கிலிஷ்": {
+      "latin": "English",
+      "notes": "Language name variant."
+    },
+    "இங்கிலீஷ்": {
+      "latin": "English",
+      "notes": "Language name; preserve as Latin in mixed-script view."
+    },
+    "இங்கீலிஷ்": {
+      "latin": "English",
+      "notes": "Variant of English."
+    },
+    "இட்ஸ்": {
+      "latin": "it's",
+      "notes": "Possible English contraction; verify its reading in context."
+    },
+    "இண்டஸ்ட்ரி": {
+      "latin": "industry",
+      "notes": "English noun."
+    },
+    "இண்டிபெண்டன்ஸ்": {
+      "latin": "independence",
+      "notes": "English noun."
+    },
+    "இனிஷியலா": {
+      "latin": "initial-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "இனிஷியல்": {
+      "latin": "initial",
+      "notes": "English adjective/noun."
+    },
+    "இன்கிரிடியன்ஸ்": {
+      "latin": "ingredients",
+      "notes": "English plural noun."
+    },
+    "இன்க்ரீஸ்": {
+      "latin": "increase",
+      "notes": "English predicate/root."
+    },
+    "இன்ஜினியரிங்": {
+      "latin": "engineering",
+      "notes": "Education/work anchor."
+    },
+    "இன்ஜினியர்": {
+      "latin": "engineer",
+      "notes": "English noun."
+    },
+    "இன்ஜினியர்ஸ்": {
+      "latin": "engineers",
+      "notes": "English plural noun."
+    },
+    "இன்டர்நேஷனல்": {
+      "latin": "international",
+      "notes": "English adjective."
+    },
+    "இன்டர்வியூ": {
+      "latin": "interview",
+      "notes": "Work/education anchor."
+    },
+    "இன்டர்வியூஸ்": {
+      "latin": "interviews",
+      "notes": "English plural noun."
+    },
+    "இன்டஸ்ரிஸ்ல": {
+      "latin": "industries-ல",
+      "notes": "English plural noun with Tamil locative suffix."
+    },
+    "இன்ட்ரஸ்ட்": {
+      "latin": "interest",
+      "notes": "English noun."
+    },
+    "இன்னோவேஷன்": {
+      "latin": "innovation",
+      "notes": "English noun."
+    },
+    "இன்புட்ஸ்": {
+      "latin": "inputs",
+      "notes": "English plural noun."
+    },
+    "இன்வெஸ்டர்ஸ்": {
+      "latin": "investors",
+      "notes": "English plural noun."
+    },
+    "இன்வெஸ்ட்": {
+      "latin": "invest",
+      "notes": "English predicate/root."
+    },
+    "இன்வெஸ்ட்மெண்ட்": {
+      "latin": "investment",
+      "notes": "Investment spelling variant."
+    },
+    "இன்வெஸ்ட்மென்ட்": {
+      "latin": "investment",
+      "notes": "Business anchor."
+    },
+    "இன்வேஸ்டிங்": {
+      "latin": "investing",
+      "notes": "English gerund."
+    },
+    "இன்ஸ்டாகிராம்": {
+      "latin": "Instagram",
+      "notes": "App/platform name."
+    },
+    "இன்ஸ்டால்": {
+      "latin": "install",
+      "notes": "English verb."
+    },
+    "இன்ஸ்டிட்யூட்": {
+      "latin": "institute",
+      "notes": "English noun."
+    },
+    "இன்ஸ்பயரிங்": {
+      "latin": "inspiring",
+      "notes": "English adjective."
+    },
+    "இப்": {
+      "latin": "if",
+      "notes": "English conjunction transliteration."
+    },
+    "இம்பார்ட்டண்ட்": {
+      "latin": "important",
+      "notes": "English adjective."
+    },
+    "இம்பார்ட்டன்ஸ்": {
+      "latin": "importance",
+      "notes": "English noun."
+    },
+    "இம்ப்ளிமெண்ட்": {
+      "latin": "implement",
+      "notes": "English predicate/root."
+    },
+    "இயர்ஸா": {
+      "latin": "years-ஆ",
+      "notes": "English plural noun with Tamil adverbial/question suffix."
+    },
+    "இயர்ஸ்": {
+      "latin": "years",
+      "notes": "English plural noun."
+    },
+    "இஸ்": {
+      "latin": "is",
+      "notes": "English be-verb token."
+    },
+    "இஸ்யூஸ்": {
+      "latin": "issues",
+      "notes": "English plural noun."
+    },
+    "ஈஸியா": {
+      "latin": "easy-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஈஸியான": {
+      "latin": "easy-ஆன",
+      "notes": "English adjective with Tamil adjectival suffix."
+    },
+    "எஃபெக்ட்": {
+      "latin": "effect",
+      "notes": "English noun/verb."
+    },
+    "எஃபோர்ட்ஸ்": {
+      "latin": "efforts",
+      "notes": "English plural noun."
+    },
+    "எகனாமிக்": {
+      "latin": "economic",
+      "notes": "English adjective."
+    },
+    "எக்யூப்மென்ட்ஸ்": {
+      "latin": "equipment",
+      "notes": "English mass noun, often pluralized in Indian English."
+    },
+    "எக்ஸாக்ட்லி": {
+      "latin": "exactly",
+      "notes": "English adverb."
+    },
+    "எக்ஸாம்": {
+      "latin": "exam",
+      "notes": "Education anchor."
+    },
+    "எக்ஸாம்பிள்": {
+      "latin": "example",
+      "notes": "English noun."
+    },
+    "எக்ஸ்கியூஸ்": {
+      "latin": "excuse",
+      "notes": "Excuse spelling variant."
+    },
+    "எக்ஸ்க்யூஸ்": {
+      "latin": "excuse",
+      "notes": "English noun/verb."
+    },
+    "எக்ஸ்சேஞ்ச்": {
+      "latin": "exchange",
+      "notes": "English noun."
+    },
+    "எக்ஸ்ட்ரா": {
+      "latin": "extra",
+      "notes": "English adjective/noun."
+    },
+    "எக்ஸ்ட்ராவா": {
+      "latin": "extra-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "எக்ஸ்பிரிமெண்ட்": {
+      "latin": "experiment",
+      "notes": "English noun/verb."
+    },
+    "எக்ஸ்பிரியன்ஸ்": {
+      "latin": "experience",
+      "notes": "Experience spelling variant."
+    },
+    "எக்ஸ்பீரியன்ஸ்": {
+      "latin": "experience",
+      "notes": "English noun."
+    },
+    "எக்ஸ்பெக்டேஷன்": {
+      "latin": "expectation",
+      "notes": "English noun."
+    },
+    "எக்ஸ்பென்சிவ்": {
+      "latin": "expensive",
+      "notes": "English adjective."
+    },
+    "எக்ஸ்போர்ட்": {
+      "latin": "export",
+      "notes": "English noun/verb."
+    },
+    "எக்ஸ்ப்ளோர்": {
+      "latin": "explore",
+      "notes": "English predicate/root."
+    },
+    "எச்ஆர்": {
+      "latin": "HR",
+      "notes": "Business/work acronym."
+    },
+    "எஜுகேஷன்": {
+      "latin": "education",
+      "notes": "Education spelling variant."
+    },
+    "எண்ட்ரன்ஸ்": {
+      "latin": "entrance",
+      "notes": "English noun."
+    },
+    "எனர்ஜி": {
+      "latin": "energy",
+      "notes": "English noun."
+    },
+    "என்ஜாய்": {
+      "latin": "enjoy",
+      "notes": "English predicate/root."
+    },
+    "என்ட்ரன்ஸ்": {
+      "latin": "entrance",
+      "notes": "Entrance spelling variant."
+    },
+    "எபக்ட்ஸ்": {
+      "latin": "effects",
+      "notes": "English plural noun."
+    },
+    "எமோஷனலா": {
+      "latin": "emotional-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "எமோஷனலி": {
+      "latin": "emotionally",
+      "notes": "English adverb."
+    },
+    "எமோஷனல்": {
+      "latin": "emotional",
+      "notes": "English adjective."
+    },
+    "எமோஷன்ஸ்": {
+      "latin": "emotions",
+      "notes": "English plural noun."
+    },
+    "எம்எஸ்எம்இ": {
+      "latin": "MSME",
+      "notes": "English acronym."
+    },
+    "எம்ப்ளாய்மெண்ட்டு": {
+      "latin": "employment",
+      "notes": "English noun."
+    },
+    "எம்ப்ளாய்ஸ்": {
+      "latin": "employees",
+      "notes": "English plural noun."
+    },
+    "எல்கேஜி": {
+      "latin": "LKG",
+      "notes": "English education acronym."
+    },
+    "எல்கேஜ்ல": {
+      "latin": "LKG-ல",
+      "notes": "English education acronym with Tamil locative suffix."
+    },
+    "எஸ்ஸ்ல்லுசிவே": {
+      "latin": "exclusively",
+      "notes": "English adverb."
+    },
+    "ஏஜ்": {
+      "latin": "age",
+      "notes": "English noun."
+    },
+    "ஏபிள்": {
+      "latin": "able",
+      "notes": "English adjective/root, often in able to."
+    },
+    "ஏர்ன்": {
+      "latin": "earn",
+      "notes": "English predicate/root."
+    },
+    "ஐஏஎஸ்": {
+      "latin": "IAS",
+      "notes": "English acronym."
+    },
+    "ஐடியா": {
+      "latin": "idea",
+      "notes": "English noun."
+    },
+    "ஐடியால": {
+      "latin": "idea-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "ஐடியாஸ்": {
+      "latin": "ideas",
+      "notes": "English plural noun."
+    },
+    "ஒன்": {
+      "latin": "one",
+      "notes": "English number token."
+    },
+    "ஒன்ஸ்": {
+      "latin": "once",
+      "notes": "English adverb."
+    },
+    "ஒய்ஃப்": {
+      "latin": "wife",
+      "notes": "English noun."
+    },
+    "ஒர்க்": {
+      "latin": "work",
+      "notes": "Work spelling variant."
+    },
+    "ஓகே": {
+      "latin": "okay",
+      "notes": "Common English discourse token."
+    },
+    "ஓனர்ஸ்": {
+      "latin": "owners",
+      "notes": "English plural noun."
+    },
+    "ஓர்க்": {
+      "latin": "work",
+      "notes": "Work spelling variant."
+    },
+    "ஓவர்": {
+      "latin": "over",
+      "notes": "English token, often part of turnover."
+    },
+    "கட்ஸ்": {
+      "latin": "guts",
+      "notes": "English plural noun."
+    },
+    "கண்சிஸ்டன்ஸா": {
+      "latin": "consistency-ஆ",
+      "notes": "English noun with Tamil adverbial suffix."
+    },
+    "கண்டிஷன்": {
+      "latin": "condition",
+      "notes": "English noun."
+    },
+    "கன்சல்டன்ஸ்": {
+      "latin": "consultants",
+      "notes": "English plural role noun."
+    },
+    "கமெண்ட்": {
+      "latin": "comment",
+      "notes": "English noun/verb root."
+    },
+    "கமெண்ட்ஸ்": {
+      "latin": "comments",
+      "notes": "English plural noun."
+    },
+    "கமெண்ட்ஸ்ல": {
+      "latin": "comments-ல",
+      "notes": "English plural noun with Tamil locative suffix."
+    },
+    "கம்பெனிஸ்": {
+      "latin": "companies",
+      "notes": "English plural noun."
+    },
+    "கம்ப்யூட்டர்": {
+      "latin": "computer",
+      "notes": "Education/tech anchor."
+    },
+    "கம்ப்ளீட்": {
+      "latin": "complete",
+      "notes": "English adjective."
+    },
+    "கம்யூனிகேஷன்": {
+      "latin": "communication",
+      "notes": "Education/work anchor."
+    },
+    "கரிசிஸ்": {
+      "latin": "crisis",
+      "notes": "English noun spelling variant."
+    },
+    "கலர்ஃபுல்": {
+      "latin": "colourful",
+      "notes": "English adjective."
+    },
+    "கவர்மென்ட்": {
+      "latin": "government",
+      "notes": "English noun."
+    },
+    "கஷ்டமர்": {
+      "latin": "customer",
+      "notes": "Customer spelling variant."
+    },
+    "கஷ்டமர்ஸ்": {
+      "latin": "customers",
+      "notes": "Customers spelling variant."
+    },
+    "கஸ்டமர்": {
+      "latin": "customer",
+      "notes": "Business anchor."
+    },
+    "கஸ்டமர்ஸ்": {
+      "latin": "customers",
+      "notes": "Business anchor."
+    },
+    "கஸ்டர்ட்": {
+      "latin": "custard",
+      "notes": "English food noun."
+    },
+    "காண்பிடன்ஸ்": {
+      "latin": "confidence",
+      "notes": "English noun."
+    },
+    "கான்ஃபிடன்ட்டா": {
+      "latin": "confident-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "கான்ஃபிடன்ஸ்": {
+      "latin": "confidence",
+      "notes": "English noun."
+    },
+    "கான்ஷியஸ்": {
+      "latin": "conscious",
+      "notes": "English adjective."
+    },
+    "காமர்ஸ்": {
+      "latin": "commerce",
+      "notes": "Education subject anchor."
+    },
+    "காம்போ": {
+      "latin": "combo",
+      "notes": "English noun."
+    },
+    "கார்": {
+      "latin": "car",
+      "notes": "Transport anchor."
+    },
+    "காலேஜஸ்": {
+      "latin": "colleges",
+      "notes": "English plural noun."
+    },
+    "காலேஜ்": {
+      "latin": "college",
+      "notes": "Education anchor."
+    },
+    "காஸ்ட்": {
+      "latin": "cost",
+      "notes": "English noun/verb."
+    },
+    "கிட்ஸ்": {
+      "latin": "kids",
+      "notes": "English plural noun."
+    },
+    "கிராஜுவேட்": {
+      "latin": "graduate",
+      "notes": "English noun."
+    },
+    "கிராண்ட்": {
+      "latin": "grant",
+      "notes": "Funding anchor."
+    },
+    "கிரான்ஸ்": {
+      "latin": "grants",
+      "notes": "English plural noun."
+    },
+    "கிரியேஷன்": {
+      "latin": "creation",
+      "notes": "English noun."
+    },
+    "கில்ஸ்": {
+      "latin": "Skills",
+      "notes": "Brand token in Josh Skills context."
+    },
+    "கிளாஸ்": {
+      "latin": "class",
+      "notes": "Education/social-class anchor."
+    },
+    "குரோத்": {
+      "latin": "growth",
+      "notes": "English noun."
+    },
+    "குவாலிட்டி": {
+      "latin": "quality",
+      "notes": "Business/education anchor."
+    },
+    "கெமிஸ்ட்ரி": {
+      "latin": "chemistry",
+      "notes": "English noun."
+    },
+    "கெஸ்ட்": {
+      "latin": "guest",
+      "notes": "English noun."
+    },
+    "கேபின்": {
+      "latin": "cabin",
+      "notes": "English noun."
+    },
+    "கேம்": {
+      "latin": "game",
+      "notes": "English noun."
+    },
+    "கேம்ஸ்": {
+      "latin": "games",
+      "notes": "English plural noun."
+    },
+    "கேர்ள்ஸ்": {
+      "latin": "girls",
+      "notes": "English plural noun."
+    },
+    "கேள்ஸ்": {
+      "latin": "girls",
+      "notes": "Girls spelling variant."
+    },
+    "கேஸ்": {
+      "latin": "case",
+      "notes": "English noun in reviewed candidate contexts."
+    },
+    "கைடன்ஸ்": {
+      "latin": "guidance",
+      "notes": "English noun."
+    },
+    "கொஸ்டின்": {
+      "latin": "question",
+      "notes": "English noun, observed in interview contexts."
+    },
+    "கோர்சஸ்": {
+      "latin": "courses",
+      "notes": "English plural noun."
+    },
+    "கோர்ஸ்": {
+      "latin": "course",
+      "notes": "Education/training anchor."
+    },
+    "கோல்ஸ்": {
+      "latin": "goals",
+      "notes": "English plural noun."
+    },
+    "க்ளோஸ்": {
+      "latin": "close",
+      "notes": "English verb/adjective."
+    },
+    "க்ளோஸ்ட்": {
+      "latin": "closed",
+      "notes": "English adjective/verb token."
+    },
+    "சஃபர்": {
+      "latin": "suffer",
+      "notes": "English verb."
+    },
+    "சக்சஸ்": {
+      "latin": "success",
+      "notes": "Common English noun."
+    },
+    "சக்ஸஸ்": {
+      "latin": "success",
+      "notes": "Variant of success."
+    },
+    "சக்ஸஸ்புலி": {
+      "latin": "successfully",
+      "notes": "English adverb."
+    },
+    "சப்ஜெக்ட்": {
+      "latin": "subject",
+      "notes": "English noun."
+    },
+    "சப்ஜெக்ட்ல": {
+      "latin": "subject-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "சப்டைட்டில்ஸ": {
+      "latin": "subtitles",
+      "notes": "English plural noun."
+    },
+    "சப்போட்": {
+      "latin": "support",
+      "notes": "Reduced spelling variant."
+    },
+    "சப்போர்ட்": {
+      "latin": "support",
+      "notes": "English noun/verb root."
+    },
+    "சப்போஸ்": {
+      "latin": "suppose",
+      "notes": "English discourse verb."
+    },
+    "சம்டைம்ஸ்": {
+      "latin": "sometimes",
+      "notes": "English adverb."
+    },
+    "சயின்ஸ்": {
+      "latin": "science",
+      "notes": "Education/technical anchor."
+    },
+    "சர்ஜரி": {
+      "latin": "surgery",
+      "notes": "Medical English noun."
+    },
+    "சர்ப்ரைஸ்": {
+      "latin": "surprise",
+      "notes": "English noun/verb."
+    },
+    "சர்வீசஸ்": {
+      "latin": "services",
+      "notes": "English plural noun."
+    },
+    "சர்வீஸ்": {
+      "latin": "service",
+      "notes": "Business/work anchor."
+    },
+    "சஸ்டேன்": {
+      "latin": "sustain",
+      "notes": "English verb."
+    },
+    "சாக்ரிஃபிகேஷன்": {
+      "latin": "sacrifice",
+      "notes": "English noun."
+    },
+    "சாங்க்": {
+      "latin": "song",
+      "notes": "Music context anchor."
+    },
+    "சாங்க்ஸ்": {
+      "latin": "songs",
+      "notes": "Possible music anchor; disambiguate song-related meaning from other similar spellings."
+    },
+    "சாங்ஸ்": {
+      "latin": "songs",
+      "notes": "Media/music anchor."
+    },
+    "சாய்ஸ்": {
+      "latin": "choice",
+      "notes": "English noun."
+    },
+    "சார்ஜ்": {
+      "latin": "charge",
+      "notes": "Tech/payment anchor."
+    },
+    "சிக்ஸ்": {
+      "latin": "six",
+      "notes": "English number token."
+    },
+    "சிக்ஸ்டி": {
+      "latin": "sixty",
+      "notes": "English number."
+    },
+    "சிக்ஸ்த்": {
+      "latin": "sixth",
+      "notes": "English ordinal."
+    },
+    "சிச்சுவேஷன்": {
+      "latin": "situation",
+      "notes": "English noun."
+    },
+    "சிட்டுவேஷன்": {
+      "latin": "situation",
+      "notes": "English noun."
+    },
+    "சிஸ்டம்": {
+      "latin": "system",
+      "notes": "English noun."
+    },
+    "சிஸ்டர்": {
+      "latin": "sister",
+      "notes": "English kinship noun."
+    },
+    "சீரியஸா": {
+      "latin": "serious-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "சீரியஸ்": {
+      "latin": "serious",
+      "notes": "English adjective."
+    },
+    "சீரிஸ்": {
+      "latin": "series",
+      "notes": "English noun."
+    },
+    "சுட்சுவேஷன்": {
+      "latin": "situation",
+      "notes": "Situation spelling variant."
+    },
+    "சுட்சுவேஷன்லயும்": {
+      "latin": "situation-லயும்",
+      "notes": "English noun with Tamil locative/additive suffix."
+    },
+    "சுயர்": {
+      "latin": "sure",
+      "notes": "Observed in for sure."
+    },
+    "சூஸ்": {
+      "latin": "choose",
+      "notes": "English predicate/root."
+    },
+    "செட்டில்ட்": {
+      "latin": "settled",
+      "notes": "English adjective/verb token."
+    },
+    "சென்டன்ஸ": {
+      "latin": "sentence",
+      "notes": "English noun."
+    },
+    "சென்டன்ஸ்": {
+      "latin": "sentence",
+      "notes": "English noun."
+    },
+    "சென்டர்ஸ்": {
+      "latin": "centers",
+      "notes": "English plural noun."
+    },
+    "செல்ஃப்": {
+      "latin": "self",
+      "notes": "English noun/reflexive token."
+    },
+    "செல்ப்": {
+      "latin": "self",
+      "notes": "English reflexive noun."
+    },
+    "சேன்ஜ்": {
+      "latin": "change",
+      "notes": "English noun/verb."
+    },
+    "சேல்ஸ்": {
+      "latin": "sales",
+      "notes": "Business anchor."
+    },
+    "சையின்ஸ்": {
+      "latin": "science",
+      "notes": "Variant of science."
+    },
+    "சொசைட்டல்": {
+      "latin": "societal",
+      "notes": "English adjective."
+    },
+    "சொல்யூஷன்": {
+      "latin": "solution",
+      "notes": "English noun."
+    },
+    "சோ": {
+      "latin": "so",
+      "notes": "Possible English discourse marker; inspect its function in the whole utterance."
+    },
+    "சோர்ஸ்": {
+      "latin": "source",
+      "notes": "English noun; context-reviewed low-frequency tail."
+    },
+    "ஜங்க்": {
+      "latin": "junk",
+      "notes": "English adjective/noun."
+    },
+    "ஜனவரி": {
+      "latin": "January",
+      "notes": "English month name."
+    },
+    "ஜர்னி": {
+      "latin": "journey",
+      "notes": "English noun."
+    },
+    "ஜஸ்ட்": {
+      "latin": "just",
+      "notes": "English adverb."
+    },
+    "ஜாப": {
+      "latin": "job",
+      "notes": "Job spelling variant."
+    },
+    "ஜாபுக்கு": {
+      "latin": "job-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "ஜாப்": {
+      "latin": "job",
+      "notes": "Career/work anchor."
+    },
+    "ஜாயின்": {
+      "latin": "join",
+      "notes": "English predicate/root."
+    },
+    "ஜாய்ன்": {
+      "latin": "join",
+      "notes": "Join spelling variant."
+    },
+    "ஜார்னி": {
+      "latin": "journey",
+      "notes": "English noun variant."
+    },
+    "ஜார்னில": {
+      "latin": "journey-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "ஜிம்முக்கு": {
+      "latin": "gym-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "ஜீரோ": {
+      "latin": "zero",
+      "notes": "English number token."
+    },
+    "ஜீரோசம்": {
+      "latin": "zero-sum",
+      "notes": "English compound adjective."
+    },
+    "ஜூஸ்": {
+      "latin": "juice",
+      "notes": "English/common loanword but still a clear Latin target in this derived view."
+    },
+    "ஜெண்டர்": {
+      "latin": "gender",
+      "notes": "English noun."
+    },
+    "ஜெனரேஷன்": {
+      "latin": "generation",
+      "notes": "English noun."
+    },
+    "ஜென்ரலா": {
+      "latin": "general-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஜென்ரேஷன்": {
+      "latin": "generation",
+      "notes": "Generation spelling variant."
+    },
+    "ஜெர்னி": {
+      "latin": "journey",
+      "notes": "Journey spelling variant."
+    },
+    "ஜெர்ரி": {
+      "latin": "Jerry",
+      "notes": "English proper name in Tom and Jerry contexts."
+    },
+    "ஜோக்": {
+      "latin": "joke",
+      "notes": "English noun/verb."
+    },
+    "ஜோஷ்": {
+      "latin": "Josh",
+      "notes": "English brand/name in Josh Talks contexts."
+    },
+    "ஜோஷ்டாக்": {
+      "latin": "Josh Talk",
+      "notes": "English brand/event name."
+    },
+    "ஜோஸ்": {
+      "latin": "Josh",
+      "notes": "English brand/name in Josh Talks/Skills contexts."
+    },
+    "ஜோஸ்டாக்ஸ்": {
+      "latin": "Josh Talks",
+      "notes": "English brand name."
+    },
+    "ஜோஸ்டாக்ஸ்யை": {
+      "latin": "Josh Talks-ஐ",
+      "notes": "English brand name with Tamil object suffix."
+    },
+    "டர்ன்": {
+      "latin": "turn",
+      "notes": "Part of turnover phrase; exact token is high-confidence English."
+    },
+    "டாக்": {
+      "latin": "Talk",
+      "notes": "Brand token in Josh Talk contexts; generic talk is also English."
+    },
+    "டாக்டர்ஸ்": {
+      "latin": "doctors",
+      "notes": "English plural noun."
+    },
+    "டாக்ஸ்": {
+      "latin": "talks",
+      "notes": "English plural/verb token."
+    },
+    "டான்ஸ்": {
+      "latin": "dance",
+      "notes": "English noun/verb."
+    },
+    "டாஸ்க்": {
+      "latin": "task",
+      "notes": "English noun."
+    },
+    "டிஃபரண்டா": {
+      "latin": "different-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "டிஃபரண்ட்": {
+      "latin": "different",
+      "notes": "English adjective."
+    },
+    "டிஃபரன்ஸ்": {
+      "latin": "difference",
+      "notes": "English noun."
+    },
+    "டிஃபரென்ட்": {
+      "latin": "different",
+      "notes": "English adjective variant."
+    },
+    "டிசிஷன்": {
+      "latin": "decision",
+      "notes": "Decision spelling variant."
+    },
+    "டிஜிட்டல்": {
+      "latin": "digital",
+      "notes": "English adjective."
+    },
+    "டிப்ரஷன்": {
+      "latin": "depression",
+      "notes": "English noun."
+    },
+    "டிப்ரஷன்ல": {
+      "latin": "depression-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "டிப்ஸ்": {
+      "latin": "tips",
+      "notes": "English plural noun."
+    },
+    "டியூப்": {
+      "latin": "tube",
+      "notes": "English noun."
+    },
+    "டியூப்ஸ்": {
+      "latin": "tubes",
+      "notes": "English plural noun."
+    },
+    "டியூஷன்": {
+      "latin": "tuition",
+      "notes": "Education anchor."
+    },
+    "டிரஸ்": {
+      "latin": "dress",
+      "notes": "Fashion/clothing anchor."
+    },
+    "டிரஸ்சு": {
+      "latin": "dress",
+      "notes": "Tamilized spelling of dress."
+    },
+    "டிரஸ்ட்": {
+      "latin": "trust",
+      "notes": "English noun/verb."
+    },
+    "டிராக்": {
+      "latin": "track",
+      "notes": "English noun."
+    },
+    "டிரான்ஸ்கிருப்ஷன்": {
+      "latin": "transcription",
+      "notes": "Transcription spelling variant."
+    },
+    "டிரான்ஸ்க்ரிப்ஷன்": {
+      "latin": "transcription",
+      "notes": "English noun."
+    },
+    "டிரேடிங்": {
+      "latin": "trading",
+      "notes": "English gerund."
+    },
+    "டிரைனிங்": {
+      "latin": "training",
+      "notes": "Training spelling variant."
+    },
+    "டிஸ்": {
+      "latin": "this",
+      "notes": "This spelling variant in English phrases."
+    },
+    "டிஸ்கஷன்": {
+      "latin": "discussion",
+      "notes": "English noun."
+    },
+    "டிஸ்கஸ்": {
+      "latin": "discuss",
+      "notes": "English verb."
+    },
+    "டீஆக்டிவேட்": {
+      "latin": "deactivate",
+      "notes": "English verb."
+    },
+    "டீச்ச": {
+      "latin": "teacher",
+      "notes": "Reduced variant seen in local hint lists."
+    },
+    "டீச்சர்": {
+      "latin": "teacher",
+      "notes": "Education anchor."
+    },
+    "டீச்சர்ஸ்": {
+      "latin": "teachers",
+      "notes": "English plural noun."
+    },
+    "டீடைல்ஸ்": {
+      "latin": "details",
+      "notes": "English plural noun."
+    },
+    "டீம்": {
+      "latin": "team",
+      "notes": "Work/business anchor."
+    },
+    "டெக்னாலஜி": {
+      "latin": "technology",
+      "notes": "English noun."
+    },
+    "டெசிசன்ஸ்": {
+      "latin": "decisions",
+      "notes": "Decision plural spelling variant."
+    },
+    "டெசிஷன்": {
+      "latin": "decision",
+      "notes": "Decision spelling variant."
+    },
+    "டென்": {
+      "latin": "ten",
+      "notes": "English number token."
+    },
+    "டென்னிஸ்": {
+      "latin": "tennis",
+      "notes": "Sport noun/proper activity."
+    },
+    "டென்ஷன்": {
+      "latin": "tension",
+      "notes": "English noun."
+    },
+    "டெவலப்மெண்ட்": {
+      "latin": "development",
+      "notes": "Education/business anchor."
+    },
+    "டெஸ்டினேஷன்": {
+      "latin": "destination",
+      "notes": "English noun."
+    },
+    "டெஸ்ட்": {
+      "latin": "test",
+      "notes": "English noun/verb."
+    },
+    "டெஸ்ட்ராயர்": {
+      "latin": "destroyer",
+      "notes": "English noun."
+    },
+    "டேக்": {
+      "latin": "take",
+      "notes": "English predicate/root."
+    },
+    "டேஸ்": {
+      "latin": "days",
+      "notes": "English plural noun."
+    },
+    "டேஸ்ட்": {
+      "latin": "taste",
+      "notes": "English noun/verb."
+    },
+    "டைம்": {
+      "latin": "time",
+      "notes": "Common English noun."
+    },
+    "டைம்ஸ்": {
+      "latin": "times",
+      "notes": "English plural noun."
+    },
+    "ட்ரான்ஸ்லேட்": {
+      "latin": "translate",
+      "notes": "English verb."
+    },
+    "ட்ரீம்ஸ்": {
+      "latin": "dreams",
+      "notes": "English plural noun."
+    },
+    "ட்ரெயினரா": {
+      "latin": "trainer-ஆ",
+      "notes": "English noun with Tamil adverbial/predicate suffix."
+    },
+    "ட்ரெயினிங்": {
+      "latin": "training",
+      "notes": "Education/work anchor."
+    },
+    "ட்ரெய்னிங்": {
+      "latin": "training",
+      "notes": "Training spelling variant."
+    },
+    "ட்விஸ்ட்": {
+      "latin": "twist",
+      "notes": "English noun/verb."
+    },
+    "தட்": {
+      "latin": "that",
+      "notes": "English demonstrative/conjunction transliteration."
+    },
+    "தட்ஸ்": {
+      "latin": "that's",
+      "notes": "English contraction."
+    },
+    "தாட்ஸ்": {
+      "latin": "that's",
+      "notes": "English contraction token."
+    },
+    "திங்க்ஸ்": {
+      "latin": "things",
+      "notes": "English plural noun."
+    },
+    "திங்ஸ்": {
+      "latin": "things",
+      "notes": "English plural noun."
+    },
+    "திஸ்": {
+      "latin": "this",
+      "notes": "English determiner/pronoun."
+    },
+    "தெர்": {
+      "latin": "there",
+      "notes": "English locative/existential variant."
+    },
+    "தேர்": {
+      "latin": "there",
+      "notes": "English locative/existential token."
+    },
+    "த்ரீ": {
+      "latin": "three",
+      "notes": "English number token."
+    },
+    "நத்திங்": {
+      "latin": "nothing",
+      "notes": "English pronoun/noun."
+    },
+    "நம்பர்": {
+      "latin": "number",
+      "notes": "English noun."
+    },
+    "நாட்": {
+      "latin": "not",
+      "notes": "English negator."
+    },
+    "நாய்ஸ்": {
+      "latin": "noise",
+      "notes": "English noun."
+    },
+    "நார்மல்": {
+      "latin": "normal",
+      "notes": "English adjective."
+    },
+    "நார்வேஸ்": {
+      "latin": "nervous",
+      "notes": "English adjective."
+    },
+    "நாலெட்ஜ்": {
+      "latin": "knowledge",
+      "notes": "English noun."
+    },
+    "நாலேஜ்": {
+      "latin": "knowledge",
+      "notes": "Education/work anchor."
+    },
+    "நாலேட்ஜ்": {
+      "latin": "knowledge",
+      "notes": "Education/work anchor variant."
+    },
+    "நாளேஜ்": {
+      "latin": "knowledge",
+      "notes": "Knowledge spelling variant."
+    },
+    "நியூஸ்": {
+      "latin": "news",
+      "notes": "Media/current-affairs anchor."
+    },
+    "நெகோஷியேட்": {
+      "latin": "negotiate",
+      "notes": "English verb."
+    },
+    "நெக்ஸ்ட்": {
+      "latin": "next",
+      "notes": "English sequencing token."
+    },
+    "நெய்பர்வூட்": {
+      "latin": "neighbourhood",
+      "notes": "English noun."
+    },
+    "நெஷ்னல்": {
+      "latin": "National",
+      "notes": "English proper adjective."
+    },
+    "நெஸ்ட்": {
+      "latin": "next",
+      "notes": "Next spelling variant in reviewed contexts."
+    },
+    "நேம்": {
+      "latin": "name",
+      "notes": "English noun."
+    },
+    "நைஸ்": {
+      "latin": "nice",
+      "notes": "English adjective."
+    },
+    "நோட்டீஸ்": {
+      "latin": "notice",
+      "notes": "English noun/verb."
+    },
+    "நோபடி": {
+      "latin": "nobody",
+      "notes": "English pronoun."
+    },
+    "பஃபிரசர்": {
+      "latin": "pressure",
+      "notes": "Pressure spelling variant."
+    },
+    "பட்": {
+      "latin": "but",
+      "notes": "English conjunction token."
+    },
+    "பப்ளிக்": {
+      "latin": "public",
+      "notes": "English adjective."
+    },
+    "பயாலஜி": {
+      "latin": "biology",
+      "notes": "English subject noun."
+    },
+    "பர்ஃபெக்டா": {
+      "latin": "perfect-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "பர்ஃபெக்ட்": {
+      "latin": "perfect",
+      "notes": "English adjective."
+    },
+    "பர்சனாலிட்டி": {
+      "latin": "personality",
+      "notes": "English noun."
+    },
+    "பர்சன்டேஜ்": {
+      "latin": "percentage",
+      "notes": "English noun."
+    },
+    "பர்னிச்சர்ஸ்": {
+      "latin": "furniture",
+      "notes": "English noun; transcript pluralizes but target English normally singular."
+    },
+    "பர்பஸ்": {
+      "latin": "purpose",
+      "notes": "English noun."
+    },
+    "பர்ஸ்ட்": {
+      "latin": "first",
+      "notes": "Variant of first."
+    },
+    "பவர்ஃபுல்": {
+      "latin": "powerful",
+      "notes": "English adjective."
+    },
+    "பவர்ஃபுல்லா": {
+      "latin": "powerful-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "பவுண்டரிசே": {
+      "latin": "boundaries-ஐ",
+      "notes": "English plural noun with Tamil accusative/emphasis suffix."
+    },
+    "பஸ்": {
+      "latin": "bus",
+      "notes": "Transport anchor."
+    },
+    "பஸ்ட்": {
+      "latin": "first",
+      "notes": "First spelling variant in reviewed contexts."
+    },
+    "பாசிபில்": {
+      "latin": "possible",
+      "notes": "Possible English adjective; inspect the intended meaning."
+    },
+    "பாட்காஸ்டாக": {
+      "latin": "podcast-ஆக",
+      "notes": "English noun with Tamil ஆக suffix."
+    },
+    "பாட்காஸ்டை": {
+      "latin": "podcast-ஐ",
+      "notes": "English noun with Tamil accusative suffix."
+    },
+    "பாட்காஸ்ட்": {
+      "latin": "podcast",
+      "notes": "English noun."
+    },
+    "பாரியர்": {
+      "latin": "barrier",
+      "notes": "English noun."
+    },
+    "பார்ட்": {
+      "latin": "part",
+      "notes": "English noun; often part time."
+    },
+    "பார்ட்டம்ல": {
+      "latin": "partum-ல",
+      "notes": "English post-partum segment with Tamil locative suffix."
+    },
+    "பார்நர்ல": {
+      "latin": "burner-ல",
+      "notes": "English noun with Tamil locative suffix in back-burner phrase."
+    },
+    "பாஸ்": {
+      "latin": "pass",
+      "notes": "Reviewed contexts are pass/பாஸ் ஆனது constructions."
+    },
+    "பாஸ்ட்": {
+      "latin": "fast",
+      "notes": "Fast spelling variant in reviewed contexts."
+    },
+    "பிகாஸ்": {
+      "latin": "because",
+      "notes": "English conjunction/discourse token."
+    },
+    "பிக்கஸ்ட்": {
+      "latin": "biggest",
+      "notes": "English superlative adjective."
+    },
+    "பிக்காஸ்": {
+      "latin": "because",
+      "notes": "Because spelling variant."
+    },
+    "பிக்ஸ்": {
+      "latin": "fix",
+      "notes": "Reviewed contexts are fix/fixed, not pics."
+    },
+    "பிசினஸா": {
+      "latin": "business-ஆ",
+      "notes": "English noun with Tamil question/adverbial suffix."
+    },
+    "பிசினஸ்": {
+      "latin": "business",
+      "notes": "Common English noun."
+    },
+    "பிசினஸ்ஸ": {
+      "latin": "business",
+      "notes": "Business spelling variant."
+    },
+    "பிசினெஸ்": {
+      "latin": "business",
+      "notes": "Business anchor variant."
+    },
+    "பிஜி": {
+      "latin": "PG",
+      "notes": "English education acronym."
+    },
+    "பிட்னஸ்": {
+      "latin": "fitness",
+      "notes": "Fitness spelling variant."
+    },
+    "பிட்னெஸ்": {
+      "latin": "fitness",
+      "notes": "English noun."
+    },
+    "பிப்ரவரி": {
+      "latin": "February",
+      "notes": "English month name."
+    },
+    "பியூட்டிஃபுல்": {
+      "latin": "beautiful",
+      "notes": "English adjective."
+    },
+    "பிரக்னன்சி": {
+      "latin": "pregnancy",
+      "notes": "English noun."
+    },
+    "பிரண்ட்ஸோட": {
+      "latin": "friends-ஓட",
+      "notes": "English plural noun with Tamil sociative/genitive suffix."
+    },
+    "பிரண்ட்ஸ்": {
+      "latin": "friends",
+      "notes": "Social relationship anchor."
+    },
+    "பிரஷர": {
+      "latin": "pressure-ஐ",
+      "notes": "English noun with Tamil object suffix."
+    },
+    "பிரஷர்": {
+      "latin": "pressure",
+      "notes": "English noun."
+    },
+    "பிரஷ்": {
+      "latin": "fresh",
+      "notes": "Reviewed context is fresh out of college."
+    },
+    "பிரஸ்ட்": {
+      "latin": "first",
+      "notes": "First spelling variant in reviewed business-talk contexts."
+    },
+    "பிராக்டீஸ்": {
+      "latin": "practice",
+      "notes": "Practice spelling variant."
+    },
+    "பிராண்ட்": {
+      "latin": "brand",
+      "notes": "Business/marketing anchor."
+    },
+    "பிரான்சிஸ்": {
+      "latin": "franchise",
+      "notes": "Reviewed business contexts are franchise, not the person-name Francis."
+    },
+    "பிராபிட்": {
+      "latin": "profit",
+      "notes": "Profit spelling variant."
+    },
+    "பிராப்ளம்ஸ்": {
+      "latin": "problems",
+      "notes": "English plural noun."
+    },
+    "பிரிவியஸ்": {
+      "latin": "previous",
+      "notes": "English adjective."
+    },
+    "பிரெண்ட்ஸ்": {
+      "latin": "friends",
+      "notes": "Friends spelling variant."
+    },
+    "பிரைவேட்": {
+      "latin": "private",
+      "notes": "English adjective."
+    },
+    "பிரைஸ்": {
+      "latin": "price",
+      "notes": "Reviewed contexts are price, not prize."
+    },
+    "பிளரிஸ்": {
+      "latin": "flourish",
+      "notes": "Flourish spelling variant."
+    },
+    "பிளஸ்": {
+      "latin": "plus",
+      "notes": "English connective/math token."
+    },
+    "பிளாக்": {
+      "latin": "block",
+      "notes": "English noun/verb root."
+    },
+    "பிளான்": {
+      "latin": "plan",
+      "notes": "English noun/verb root."
+    },
+    "பிளான்ஸ்": {
+      "latin": "plans",
+      "notes": "English plural noun."
+    },
+    "பிளேஸ்": {
+      "latin": "place",
+      "notes": "English noun/verb."
+    },
+    "பிளேஸ்மண்ட்ஸ்": {
+      "latin": "placements",
+      "notes": "English plural noun."
+    },
+    "பிஸினஸ்": {
+      "latin": "business",
+      "notes": "Business anchor variant."
+    },
+    "பிஸ்": {
+      "latin": "biz",
+      "notes": "English business abbreviation."
+    },
+    "பிஸ்னஸ்": {
+      "latin": "business",
+      "notes": "Business anchor variant."
+    },
+    "பிஸ்னிஸ்": {
+      "latin": "business",
+      "notes": "Business spelling variant."
+    },
+    "பீசஸ்": {
+      "latin": "pieces",
+      "notes": "English plural noun."
+    },
+    "பீபோர்": {
+      "latin": "before",
+      "notes": "English preposition/adverb."
+    },
+    "பீப்பிள்": {
+      "latin": "people",
+      "notes": "English plural noun."
+    },
+    "பீலிங்ஸ்": {
+      "latin": "feelings",
+      "notes": "English plural noun."
+    },
+    "பீஸ்": {
+      "latin": "fees",
+      "notes": "Reviewed contexts are school/exam fees."
+    },
+    "புக்": {
+      "latin": "book",
+      "notes": "High confidence as a stem, but context may imply booking/booked."
+    },
+    "புக்ஸ்": {
+      "latin": "books",
+      "notes": "English plural noun."
+    },
+    "புரோபெரா": {
+      "latin": "proper-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "பூஸ்ட்ராப்": {
+      "latin": "bootstrap",
+      "notes": "English verb/noun."
+    },
+    "பூஸ்ட்ராப்னா": {
+      "latin": "bootstrap-னா",
+      "notes": "English noun/verb with Tamil quotative/conditional suffix."
+    },
+    "பென்ஷன்": {
+      "latin": "pension",
+      "notes": "English noun."
+    },
+    "பெஸ்ட்": {
+      "latin": "best",
+      "notes": "English adjective."
+    },
+    "பேக்": {
+      "latin": "back",
+      "notes": "English adverb/noun."
+    },
+    "பேக்கர்ஸ்": {
+      "latin": "bakers",
+      "notes": "English plural noun."
+    },
+    "பேக்ட்ஸ்": {
+      "latin": "facts",
+      "notes": "English plural noun."
+    },
+    "பேசன்ஸ்": {
+      "latin": "patience",
+      "notes": "English noun."
+    },
+    "பேசிஸ்": {
+      "latin": "basis",
+      "notes": "English noun."
+    },
+    "பேமஸ்": {
+      "latin": "famous",
+      "notes": "English adjective variant."
+    },
+    "பேரண்ட்ஸ்": {
+      "latin": "parents",
+      "notes": "Parents spelling variant."
+    },
+    "பேரன்டிங்": {
+      "latin": "parenting",
+      "notes": "English gerund/noun."
+    },
+    "பேரன்ட்ஸ்": {
+      "latin": "parents",
+      "notes": "Family relationship loanword."
+    },
+    "பேரன்ஸ்": {
+      "latin": "parents",
+      "notes": "Parents spelling variant."
+    },
+    "பேரியர்": {
+      "latin": "barrier",
+      "notes": "Barrier spelling variant."
+    },
+    "பேலன்ஸ்": {
+      "latin": "balance",
+      "notes": "English noun/verb."
+    },
+    "பேஷன": {
+      "latin": "passion",
+      "notes": "Passion with reduced final vowel in reviewed contexts."
+    },
+    "பேஷன்": {
+      "latin": "passion",
+      "notes": "In reviewed contexts this is passion rather than fashion."
+    },
+    "பேஷன்ட்": {
+      "latin": "patient",
+      "notes": "English noun/adjective."
+    },
+    "பேஸிங்": {
+      "latin": "facing",
+      "notes": "English verb form."
+    },
+    "பேஸ்புக்": {
+      "latin": "Facebook",
+      "notes": "English brand name."
+    },
+    "பைனான்ஸ்": {
+      "latin": "finance",
+      "notes": "English noun."
+    },
+    "பொசிஷனுக்கு": {
+      "latin": "position-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "பொசிஷன்ல": {
+      "latin": "position-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "பொல்லொவ்": {
+      "latin": "follow",
+      "notes": "Follow spelling variant."
+    },
+    "போக்கஸ்": {
+      "latin": "focus",
+      "notes": "Focus spelling variant."
+    },
+    "போட்டோஸ்": {
+      "latin": "photos",
+      "notes": "English plural noun."
+    },
+    "போன்": {
+      "latin": "phone",
+      "notes": "Tech anchor."
+    },
+    "போஸ்டிங்ல": {
+      "latin": "posting-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "போஸ்ட்": {
+      "latin": "post",
+      "notes": "English noun/adjective."
+    },
+    "ப்ராக்டிஸ்": {
+      "latin": "practice",
+      "notes": "English noun/verb."
+    },
+    "ப்ராசஸ்": {
+      "latin": "process",
+      "notes": "English noun."
+    },
+    "ப்ராஜெக்ட": {
+      "latin": "project",
+      "notes": "Orthographic variant of project."
+    },
+    "ப்ராஜெக்ட்": {
+      "latin": "project",
+      "notes": "Work/education anchor."
+    },
+    "ப்ராடக்ட்ஸ்": {
+      "latin": "products",
+      "notes": "English plural noun."
+    },
+    "ப்ராபிட்": {
+      "latin": "profit",
+      "notes": "Business anchor."
+    },
+    "ப்ராப்ளம்ஸ்": {
+      "latin": "problems",
+      "notes": "Problems spelling variant."
+    },
+    "ப்ரூஃப்": {
+      "latin": "proof",
+      "notes": "English noun."
+    },
+    "ப்ரையாரிட்டீஸு": {
+      "latin": "priorities",
+      "notes": "English plural noun."
+    },
+    "ப்ரையாரிட்டீஸ்": {
+      "latin": "priorities",
+      "notes": "English plural noun."
+    },
+    "ப்ரைஸ்": {
+      "latin": "price",
+      "notes": "Price spelling variant."
+    },
+    "ப்ரொடியூஸ்": {
+      "latin": "produce",
+      "notes": "English verb."
+    },
+    "ப்ரொபஷனல்": {
+      "latin": "professional",
+      "notes": "Work identity/adjective."
+    },
+    "ப்ரொபஷன்": {
+      "latin": "profession",
+      "notes": "English noun."
+    },
+    "ப்ரொப்பஷ்னல்": {
+      "latin": "professional",
+      "notes": "Professional spelling variant."
+    },
+    "ப்ரோமோஷன்": {
+      "latin": "promotion",
+      "notes": "English noun."
+    },
+    "ப்ளரிஸ்": {
+      "latin": "flourish",
+      "notes": "Flourish spelling variant."
+    },
+    "ப்ளஸ்": {
+      "latin": "plus",
+      "notes": "English connective/number word."
+    },
+    "ப்ளீஸ்": {
+      "latin": "please",
+      "notes": "English politeness marker."
+    },
+    "ப்ளேஸ்": {
+      "latin": "place",
+      "notes": "Place/placed spelling variant."
+    },
+    "மதரஸ்க்கு": {
+      "latin": "mothers-க்கு",
+      "notes": "English plural noun with Tamil dative suffix."
+    },
+    "மதர்ஸ்ட்ட": {
+      "latin": "mothers-ட்ட",
+      "notes": "English plural noun with Tamil dative/oblique suffix."
+    },
+    "மந்த்ஸ்": {
+      "latin": "months",
+      "notes": "English plural noun."
+    },
+    "மன்த்ஸ்": {
+      "latin": "months",
+      "notes": "English plural noun."
+    },
+    "மல்டி": {
+      "latin": "multi",
+      "notes": "English prefix/adjective."
+    },
+    "மார்க்": {
+      "latin": "mark",
+      "notes": "Question-mark/work anchor."
+    },
+    "மார்க்கெட்": {
+      "latin": "market",
+      "notes": "Business/shopping anchor."
+    },
+    "மார்க்ஸ்": {
+      "latin": "marks",
+      "notes": "Education/scoring anchor."
+    },
+    "மாஸ்": {
+      "latin": "mass",
+      "notes": "English noun/adjective."
+    },
+    "மாஸ்டர்": {
+      "latin": "master",
+      "notes": "Education/work anchor."
+    },
+    "மாஸ்டர்ஸ்": {
+      "latin": "masters",
+      "notes": "English degree/plural noun."
+    },
+    "மிக்ஸ்": {
+      "latin": "mix",
+      "notes": "English root."
+    },
+    "மிடில்": {
+      "latin": "middle",
+      "notes": "English adjective in lower middle class."
+    },
+    "மித்ஸ்": {
+      "latin": "myths",
+      "notes": "English plural noun."
+    },
+    "மினிட்ஸ்": {
+      "latin": "minutes",
+      "notes": "Time noun."
+    },
+    "மினிஸ்டர்": {
+      "latin": "minister",
+      "notes": "English noun."
+    },
+    "மில்லியனர்ஸ்": {
+      "latin": "millionaires",
+      "notes": "English plural noun."
+    },
+    "மில்லியனல்ஸ்": {
+      "latin": "millennials",
+      "notes": "English plural noun."
+    },
+    "மில்லியன்ஸ்": {
+      "latin": "millions",
+      "notes": "English plural noun."
+    },
+    "மிஸ்": {
+      "latin": "miss",
+      "notes": "English verb/title."
+    },
+    "மிஸ்டர்": {
+      "latin": "Mr.",
+      "notes": "English title."
+    },
+    "மிஸ்டேக்": {
+      "latin": "mistake",
+      "notes": "English noun."
+    },
+    "மிஸ்ஸிங்": {
+      "latin": "missing",
+      "notes": "English adjective/verb form."
+    },
+    "மீன்ஸ்": {
+      "latin": "means",
+      "notes": "English discourse/verb token."
+    },
+    "மெசேஜ்": {
+      "latin": "message",
+      "notes": "English noun."
+    },
+    "மெடிகேஷன்ஸ்": {
+      "latin": "medications",
+      "notes": "English plural noun."
+    },
+    "மெட்ரிக்குலேஷன்ல": {
+      "latin": "matriculation-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "மெண்டார்ஸ்": {
+      "latin": "mentors",
+      "notes": "English plural noun."
+    },
+    "மெஷர்": {
+      "latin": "measure",
+      "notes": "English verb/noun."
+    },
+    "மேக்ஸ்": {
+      "latin": "makes",
+      "notes": "English verb spelling variant."
+    },
+    "மேஜர்": {
+      "latin": "major",
+      "notes": "English adjective/noun."
+    },
+    "மேஜிக்": {
+      "latin": "magic",
+      "notes": "English noun/adjective."
+    },
+    "மேனர்ஸ்": {
+      "latin": "manners",
+      "notes": "English plural noun."
+    },
+    "மேனேஜர்": {
+      "latin": "manager",
+      "notes": "English role noun."
+    },
+    "மேனேஜ்": {
+      "latin": "manage",
+      "notes": "English predicate/root."
+    },
+    "மேனேஜ்மென்ட்": {
+      "latin": "management",
+      "notes": "Business/work anchor."
+    },
+    "மேய்ன்": {
+      "latin": "main",
+      "notes": "English adjective."
+    },
+    "மேரேஜ்": {
+      "latin": "marriage",
+      "notes": "English noun."
+    },
+    "மைனஸ்": {
+      "latin": "minus",
+      "notes": "English/math token."
+    },
+    "மொபைல்": {
+      "latin": "mobile",
+      "notes": "Tech anchor."
+    },
+    "மோட்டிவேட்டர்": {
+      "latin": "motivator",
+      "notes": "English noun."
+    },
+    "மோட்டிவேஷன்": {
+      "latin": "motivation",
+      "notes": "English noun."
+    },
+    "மோஸ்ட்": {
+      "latin": "most",
+      "notes": "English quantifier/adverb."
+    },
+    "மோஸ்ட்லி": {
+      "latin": "mostly",
+      "notes": "English adverb."
+    },
+    "யு": {
+      "latin": "you",
+      "notes": "English pronoun transliteration variant."
+    },
+    "யுடிலைஸ்": {
+      "latin": "utilize",
+      "notes": "English verb."
+    },
+    "யுனிவர்ஸ்": {
+      "latin": "universe",
+      "notes": "English noun."
+    },
+    "யுவர்": {
+      "latin": "your",
+      "notes": "English possessive token."
+    },
+    "யூ": {
+      "latin": "you",
+      "notes": "English pronoun transliteration; low collision as standalone token."
+    },
+    "யூசிங்": {
+      "latin": "using",
+      "notes": "English participle."
+    },
+    "யூரின்": {
+      "latin": "urine",
+      "notes": "English noun."
+    },
+    "யூஸ்": {
+      "latin": "use",
+      "notes": "English verb/noun root."
+    },
+    "யூஸ்ஃபுல்லா": {
+      "latin": "useful-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ரன்": {
+      "latin": "run",
+      "notes": "English predicate/root."
+    },
+    "ராப்": {
+      "latin": "rap",
+      "notes": "Music genre anchor."
+    },
+    "ரிசல்ட்ஸ்": {
+      "latin": "results",
+      "notes": "English plural noun."
+    },
+    "ரிஜிஸ்டரே": {
+      "latin": "register-ஏ",
+      "notes": "English verb with Tamil emphatic suffix."
+    },
+    "ரிஜிஸ்டர்": {
+      "latin": "register",
+      "notes": "English verb/noun."
+    },
+    "ரிப்பீட்டடா": {
+      "latin": "repeatedly",
+      "notes": "Possible English adverbial form; review its meaning and Tamil morphology in context."
+    },
+    "ரியலைஸ்": {
+      "latin": "realize",
+      "notes": "English predicate/root."
+    },
+    "ரியாக்ஷன்": {
+      "latin": "reaction",
+      "notes": "English noun."
+    },
+    "ரிலீஸ்": {
+      "latin": "release",
+      "notes": "English noun/verb."
+    },
+    "ரிலேடிவ்ஸ்": {
+      "latin": "relatives",
+      "notes": "English plural noun."
+    },
+    "ரிலேட்டிவ்": {
+      "latin": "relative",
+      "notes": "English adjective/noun."
+    },
+    "ரிலேஷன்ஷிப்": {
+      "latin": "relationship",
+      "notes": "English noun."
+    },
+    "ரிஸ்க்": {
+      "latin": "risk",
+      "notes": "English noun/verb."
+    },
+    "ரீசிலியன்ஸ்": {
+      "latin": "resilience",
+      "notes": "English noun."
+    },
+    "ரீடைல்": {
+      "latin": "retail",
+      "notes": "English noun/adjective."
+    },
+    "ரீபே": {
+      "latin": "repay",
+      "notes": "Finance predicate/root."
+    },
+    "ருபீஸ்": {
+      "latin": "rupees",
+      "notes": "English plural currency noun."
+    },
+    "ரூல்ஸ்": {
+      "latin": "rules",
+      "notes": "English plural noun."
+    },
+    "ரெஜிஸ்டர்": {
+      "latin": "register",
+      "notes": "Register spelling variant."
+    },
+    "ரெஜிஸ்ட்ரேஷன்": {
+      "latin": "registration",
+      "notes": "English noun."
+    },
+    "ரெடியூஸ்": {
+      "latin": "reduce",
+      "notes": "English predicate/root."
+    },
+    "ரெஸ்ட்": {
+      "latin": "rest",
+      "notes": "English noun/verb."
+    },
+    "ரெஸ்பான்ஸ்": {
+      "latin": "response",
+      "notes": "English noun."
+    },
+    "ரெஸ்பெக்ட்": {
+      "latin": "respect",
+      "notes": "English noun/verb."
+    },
+    "ரெஸ்யூம்": {
+      "latin": "resume",
+      "notes": "Job/interview anchor."
+    },
+    "ரோடு": {
+      "latin": "road",
+      "notes": "Transport/location anchor; may be naturalized in Tamil, but useful for mixed-script alignment."
+    },
+    "ரோட்ல": {
+      "latin": "road-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "லாக்ஸ்": {
+      "latin": "lakhs",
+      "notes": "Indian English number word; source speech uses lakhs."
+    },
+    "லாங்குவேஜ்": {
+      "latin": "language",
+      "notes": "English noun."
+    },
+    "லாஜிக்களா": {
+      "latin": "logical-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "லாட்ஸ்": {
+      "latin": "lots",
+      "notes": "English plural/quantifier; landlord phrases are handled phrase-level when context is explicit."
+    },
+    "லாஸ்": {
+      "latin": "loss",
+      "notes": "English noun."
+    },
+    "லாஸ்ட்": {
+      "latin": "last",
+      "notes": "English adjective/time token; still review if loss/lost context is suspected."
+    },
+    "லாஸ்ட்டா": {
+      "latin": "last-ஆ",
+      "notes": "English adjective/adverb with Tamil adverbial suffix."
+    },
+    "லிஸ்ட்": {
+      "latin": "list",
+      "notes": "English noun."
+    },
+    "லூஸ்": {
+      "latin": "lose",
+      "notes": "Possible English predicate/root, e.g. do not lose it; preserve the source action and negation."
+    },
+    "லெவல்": {
+      "latin": "level",
+      "notes": "English noun."
+    },
+    "லேக்ஸ்": {
+      "latin": "lakhs",
+      "notes": "Lakhs spelling variant."
+    },
+    "லேடிஸ்": {
+      "latin": "ladies",
+      "notes": "English plural noun."
+    },
+    "லேடீஸ்": {
+      "latin": "ladies",
+      "notes": "English plural noun."
+    },
+    "லேண்ட்": {
+      "latin": "land",
+      "notes": "English noun."
+    },
+    "லேண்ட்லாட்ஸ்": {
+      "latin": "landlords",
+      "notes": "Landlords spelling variant."
+    },
+    "லைஃப": {
+      "latin": "life",
+      "notes": "Life spelling variant."
+    },
+    "லைஃபை": {
+      "latin": "life-ஐ",
+      "notes": "English noun with Tamil object suffix."
+    },
+    "லைஃபோட": {
+      "latin": "life-ஓட",
+      "notes": "English noun with Tamil sociative/genitive suffix."
+    },
+    "லைஃப்": {
+      "latin": "life",
+      "notes": "Common English noun."
+    },
+    "லைஃப்அ": {
+      "latin": "life-ஐ",
+      "notes": "English noun with Tamil object suffix."
+    },
+    "லைன்ஸ்": {
+      "latin": "lines",
+      "notes": "English plural noun."
+    },
+    "லோயர்": {
+      "latin": "lower",
+      "notes": "English adjective in lower middle class."
+    },
+    "வாட்": {
+      "latin": "what",
+      "notes": "English wh-word."
+    },
+    "வாட்ஸ்": {
+      "latin": "what's",
+      "notes": "English contraction in reviewed contexts."
+    },
+    "வாட்ஸ்அப்": {
+      "latin": "WhatsApp",
+      "notes": "App name."
+    },
+    "வாய்ஸ்": {
+      "latin": "voice",
+      "notes": "Tech/body/audio anchor."
+    },
+    "வாலன்டியர்ஸ்": {
+      "latin": "volunteers",
+      "notes": "English plural noun."
+    },
+    "வால்யூம்ஸ்": {
+      "latin": "volumes",
+      "notes": "English plural noun."
+    },
+    "வாஸ்": {
+      "latin": "was",
+      "notes": "English be-verb token."
+    },
+    "வித்": {
+      "latin": "with",
+      "notes": "English preposition."
+    },
+    "வின்டர்ஸ்": {
+      "latin": "vendors",
+      "notes": "Vendors spelling variant in reviewed supply-chain context."
+    },
+    "வின்ஸ்": {
+      "latin": "wins",
+      "notes": "English plural noun."
+    },
+    "வில்": {
+      "latin": "will",
+      "notes": "English modal token."
+    },
+    "வில்லேஜ்": {
+      "latin": "village",
+      "notes": "English noun."
+    },
+    "வில்லேஜ்ல": {
+      "latin": "village-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "விஷன்": {
+      "latin": "vision",
+      "notes": "English noun."
+    },
+    "விஷ்": {
+      "latin": "wish",
+      "notes": "English noun/verb."
+    },
+    "வீக்ஸ்": {
+      "latin": "weeks",
+      "notes": "English plural noun."
+    },
+    "வீடியோ": {
+      "latin": "video",
+      "notes": "Media/tech anchor."
+    },
+    "வீடியோஸ்": {
+      "latin": "videos",
+      "notes": "English plural noun."
+    },
+    "வீமன்": {
+      "latin": "woman",
+      "notes": "Possible English noun in a business or motivational context; verify the actual reading."
+    },
+    "வீமன்ஸ்": {
+      "latin": "women",
+      "notes": "Possible English plural noun; preserve number and verify the actual reading."
+    },
+    "வென்சர்ஸ்": {
+      "latin": "ventures",
+      "notes": "Business noun."
+    },
+    "வெரி": {
+      "latin": "very",
+      "notes": "English adverb."
+    },
+    "வெல்னெஸ்": {
+      "latin": "wellness",
+      "notes": "Health/business anchor."
+    },
+    "வெஹிகிள்": {
+      "latin": "vehicle",
+      "notes": "English noun."
+    },
+    "வேலிடேட்": {
+      "latin": "validate",
+      "notes": "English verb."
+    },
+    "வேல்யூஸ்": {
+      "latin": "values",
+      "notes": "English plural noun."
+    },
+    "வேஸ்ட்": {
+      "latin": "waste",
+      "notes": "English noun/verb/adjective."
+    },
+    "வைஃப்": {
+      "latin": "wife",
+      "notes": "Family relationship loanword."
+    },
+    "வொர்க்": {
+      "latin": "work",
+      "notes": "Work anchor."
+    },
+    "வொர்க்ஷாப்": {
+      "latin": "workshop",
+      "notes": "Education/work anchor."
+    },
+    "வொர்க்ஸ்": {
+      "latin": "works",
+      "notes": "Work/business anchor."
+    },
+    "ஷர்ட்": {
+      "latin": "shirt",
+      "notes": "English clothing noun."
+    },
+    "ஷாக்": {
+      "latin": "shock",
+      "notes": "English noun/verb."
+    },
+    "ஷாக்கிங்": {
+      "latin": "shocking",
+      "notes": "English adjective."
+    },
+    "ஷாப்": {
+      "latin": "shop",
+      "notes": "English noun/root; in workshop contexts this still yields Latin English."
+    },
+    "ஷாப்பிங்": {
+      "latin": "shopping",
+      "notes": "Shopping/domain anchor."
+    },
+    "ஷால்": {
+      "latin": "shall",
+      "notes": "English modal."
+    },
+    "ஷிப்ட்": {
+      "latin": "shift",
+      "notes": "English noun/verb."
+    },
+    "ஷூ": {
+      "latin": "shoe",
+      "notes": "English noun."
+    },
+    "ஷூட்": {
+      "latin": "shoot",
+      "notes": "English verb/noun."
+    },
+    "ஷேர்": {
+      "latin": "share",
+      "notes": "English predicate/root."
+    },
+    "ஷோ": {
+      "latin": "so",
+      "notes": "Possible English discourse so; inspect the following clause and do not assume this reading from spelling alone."
+    },
+    "ஷோவே": {
+      "latin": "show-ஏ",
+      "notes": "English noun with Tamil emphatic suffix."
+    },
+    "ஸுட்டென்ட்ஸ்": {
+      "latin": "students",
+      "notes": "Observed spelling variant."
+    },
+    "ஸோ": {
+      "latin": "so",
+      "notes": "Variant of English discourse marker so."
+    },
+    "ஸ்கின்": {
+      "latin": "skin",
+      "notes": "English noun."
+    },
+    "ஸ்கிப்": {
+      "latin": "skip",
+      "notes": "English verb."
+    },
+    "ஸ்கில்": {
+      "latin": "skill",
+      "notes": "Education/work anchor."
+    },
+    "ஸ்கில்டு": {
+      "latin": "skilled",
+      "notes": "English adjective."
+    },
+    "ஸ்கில்ஸ": {
+      "latin": "skills",
+      "notes": "English plural noun."
+    },
+    "ஸ்கில்ஸ்": {
+      "latin": "skills",
+      "notes": "Education/work anchor."
+    },
+    "ஸ்கீம்": {
+      "latin": "scheme",
+      "notes": "English noun."
+    },
+    "ஸ்கூலிங்": {
+      "latin": "schooling",
+      "notes": "English noun."
+    },
+    "ஸ்கூலுக்கு": {
+      "latin": "school-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "ஸ்கூல்": {
+      "latin": "school",
+      "notes": "Education anchor."
+    },
+    "ஸ்கேன்": {
+      "latin": "scan",
+      "notes": "English noun/verb."
+    },
+    "ஸ்கொயர்": {
+      "latin": "square",
+      "notes": "English noun/adjective."
+    },
+    "ஸ்டக்": {
+      "latin": "stuck",
+      "notes": "English adjective/state token."
+    },
+    "ஸ்டாக்ஸ்": {
+      "latin": "stocks",
+      "notes": "English plural noun."
+    },
+    "ஸ்டாட்": {
+      "latin": "start",
+      "notes": "Start spelling variant in reviewed contexts."
+    },
+    "ஸ்டாண்டர்ட்": {
+      "latin": "standard",
+      "notes": "English adjective/noun."
+    },
+    "ஸ்டாண்டிங்": {
+      "latin": "standing",
+      "notes": "English noun/verb."
+    },
+    "ஸ்டாப்": {
+      "latin": "stop",
+      "notes": "English predicate/root."
+    },
+    "ஸ்டாப்பிங்": {
+      "latin": "stopping",
+      "notes": "English verb/noun."
+    },
+    "ஸ்டார்டட்": {
+      "latin": "started",
+      "notes": "English verb token variant."
+    },
+    "ஸ்டார்டிங்": {
+      "latin": "starting",
+      "notes": "English verb/noun form."
+    },
+    "ஸ்டார்ட்": {
+      "latin": "start",
+      "notes": "Common English predicate/root."
+    },
+    "ஸ்டார்ட்அப்": {
+      "latin": "startup",
+      "notes": "Business anchor."
+    },
+    "ஸ்டார்ட்ட": {
+      "latin": "start",
+      "notes": "Start spelling variant."
+    },
+    "ஸ்டார்ட்டட்": {
+      "latin": "started",
+      "notes": "English verb token."
+    },
+    "ஸ்டில்": {
+      "latin": "still",
+      "notes": "English discourse/adverb token."
+    },
+    "ஸ்டீரியோடைப்": {
+      "latin": "stereotype",
+      "notes": "English noun."
+    },
+    "ஸ்டுடென்ட்": {
+      "latin": "student",
+      "notes": "English noun."
+    },
+    "ஸ்டுடென்ட்ஸ்": {
+      "latin": "students",
+      "notes": "Education anchor."
+    },
+    "ஸ்டூடண்ட்": {
+      "latin": "student",
+      "notes": "Education anchor."
+    },
+    "ஸ்டூடண்ட்ஸ்": {
+      "latin": "students",
+      "notes": "Education anchor variant."
+    },
+    "ஸ்டூடென்ட்": {
+      "latin": "student",
+      "notes": "English noun variant."
+    },
+    "ஸ்டெடி": {
+      "latin": "steady",
+      "notes": "English adjective."
+    },
+    "ஸ்டெப்": {
+      "latin": "step",
+      "notes": "English noun."
+    },
+    "ஸ்டெப்ஸ்": {
+      "latin": "steps",
+      "notes": "English plural noun."
+    },
+    "ஸ்டேஜுக்கு": {
+      "latin": "stage-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "ஸ்டேஜ்": {
+      "latin": "stage",
+      "notes": "English noun."
+    },
+    "ஸ்டேட்டஸ்": {
+      "latin": "status",
+      "notes": "English noun."
+    },
+    "ஸ்டேட்மெண்ட்": {
+      "latin": "statement",
+      "notes": "Statement spelling variant."
+    },
+    "ஸ்டேட்மென்ட்": {
+      "latin": "statement",
+      "notes": "English noun."
+    },
+    "ஸ்டேப்": {
+      "latin": "step",
+      "notes": "English noun."
+    },
+    "ஸ்டேஷன்": {
+      "latin": "station",
+      "notes": "English noun."
+    },
+    "ஸ்டைல்": {
+      "latin": "style",
+      "notes": "English noun."
+    },
+    "ஸ்டோன்": {
+      "latin": "stone",
+      "notes": "English noun."
+    },
+    "ஸ்டோரி": {
+      "latin": "story",
+      "notes": "Media/social media anchor."
+    },
+    "ஸ்டோரீஸ்": {
+      "latin": "stories",
+      "notes": "English plural noun."
+    },
+    "ஸ்ட்ரக்கில்": {
+      "latin": "struggle",
+      "notes": "Struggle spelling variant."
+    },
+    "ஸ்ட்ரக்கில்ஸ்": {
+      "latin": "struggles",
+      "notes": "English plural noun."
+    },
+    "ஸ்ட்ராங்": {
+      "latin": "strong",
+      "notes": "English adjective."
+    },
+    "ஸ்ட்ராங்கா": {
+      "latin": "strong-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஸ்ட்ரெஸ்": {
+      "latin": "stress",
+      "notes": "Possible English stress as noun or verb; inspect the source meaning."
+    },
+    "ஸ்ட்ர்கில்": {
+      "latin": "struggle",
+      "notes": "Struggle spelling variant."
+    },
+    "ஸ்பாட்டிபிய்": {
+      "latin": "Spotify",
+      "notes": "English brand name."
+    },
+    "ஸ்பார்க்": {
+      "latin": "spark",
+      "notes": "English noun."
+    },
+    "ஸ்பிகிங்க்": {
+      "latin": "speaking",
+      "notes": "English verb/noun form."
+    },
+    "ஸ்பிரட்": {
+      "latin": "spread",
+      "notes": "English verb/noun."
+    },
+    "ஸ்பிரிச்சுவல்": {
+      "latin": "spiritual",
+      "notes": "English adjective."
+    },
+    "ஸ்பீக்": {
+      "latin": "speak",
+      "notes": "English predicate/root."
+    },
+    "ஸ்பீக்கர்சா": {
+      "latin": "speakers-ஆ",
+      "notes": "English plural noun with Tamil adverbial suffix."
+    },
+    "ஸ்பீக்கிங்": {
+      "latin": "speaking",
+      "notes": "English verb/noun."
+    },
+    "ஸ்பீச்": {
+      "latin": "speech",
+      "notes": "English noun."
+    },
+    "ஸ்பென்ட்": {
+      "latin": "spent",
+      "notes": "English verb token."
+    },
+    "ஸ்பெஷலா": {
+      "latin": "special-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஸ்பெஷலி": {
+      "latin": "specially",
+      "notes": "English adverb."
+    },
+    "ஸ்பெஷலிஸ்ட்": {
+      "latin": "specialist",
+      "notes": "English noun."
+    },
+    "ஸ்பெஷல்": {
+      "latin": "special",
+      "notes": "English adjective."
+    },
+    "ஸ்பேஸ்": {
+      "latin": "space",
+      "notes": "English noun."
+    },
+    "ஸ்மார்ட்": {
+      "latin": "smart",
+      "notes": "English adjective."
+    },
+    "ஸ்மால்": {
+      "latin": "small",
+      "notes": "English adjective."
+    },
+    "ஸ்மெல்": {
+      "latin": "smell",
+      "notes": "English noun/verb."
+    },
+    "ஸ்லோவா": {
+      "latin": "slow-ஆ",
+      "notes": "English adjective/adverb with Tamil suffix."
+    },
+    "ஹண்ரட்பர்சன்ட்": {
+      "latin": "hundred percent",
+      "notes": "English number phrase."
+    },
+    "ஹலோ": {
+      "latin": "hello",
+      "notes": "Greeting/backchannel token."
+    },
+    "ஹவர்ஸ்": {
+      "latin": "hours",
+      "notes": "English plural noun."
+    },
+    "ஹவுஸ்": {
+      "latin": "house",
+      "notes": "English noun."
+    },
+    "ஹவ்": {
+      "latin": "have",
+      "notes": "Promoted after phrase review; most observed candidates are have, not how."
+    },
+    "ஹஸ்பண்ட்": {
+      "latin": "husband",
+      "notes": "Family relationship loanword."
+    },
+    "ஹஸ்பன்ட்": {
+      "latin": "husband",
+      "notes": "English kinship noun."
+    },
+    "ஹாஃப்": {
+      "latin": "half",
+      "notes": "English quantity token."
+    },
+    "ஹாப்பி": {
+      "latin": "happy",
+      "notes": "Happy spelling variant."
+    },
+    "ஹாப்பியா": {
+      "latin": "happy-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஹார்ஸ்": {
+      "latin": "hours",
+      "notes": "Hours spelling variant."
+    },
+    "ஹாவ்": {
+      "latin": "have",
+      "notes": "Have spelling variant; context reviewed as have."
+    },
+    "ஹாஸ்": {
+      "latin": "has",
+      "notes": "English be/have token."
+    },
+    "ஹாஸ்டலுக்கு": {
+      "latin": "hostel-க்கு",
+      "notes": "English noun with Tamil dative suffix."
+    },
+    "ஹாஸ்டல்": {
+      "latin": "hostel",
+      "notes": "English noun."
+    },
+    "ஹாஸ்பிடல்": {
+      "latin": "hospital",
+      "notes": "English noun."
+    },
+    "ஹாஸ்பிடல்ல": {
+      "latin": "hospital-ல",
+      "notes": "English noun with Tamil locative suffix."
+    },
+    "ஹி": {
+      "latin": "he",
+      "notes": "English pronoun in reviewed contexts."
+    },
+    "ஹியூமன்": {
+      "latin": "human",
+      "notes": "English adjective/noun."
+    },
+    "ஹெட்": {
+      "latin": "head",
+      "notes": "English noun."
+    },
+    "ஹெல்தியா": {
+      "latin": "healthy-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஹெல்த்": {
+      "latin": "health",
+      "notes": "Health domain anchor."
+    },
+    "ஹெல்த்த": {
+      "latin": "health",
+      "notes": "Health spelling variant."
+    },
+    "ஹெல்ப்": {
+      "latin": "help",
+      "notes": "English root."
+    },
+    "ஹெவி": {
+      "latin": "heavy",
+      "notes": "English adjective."
+    },
+    "ஹேட்": {
+      "latin": "had",
+      "notes": "Reviewed contexts are had, not hate."
+    },
+    "ஹேண்டில்": {
+      "latin": "handle",
+      "notes": "English predicate/root."
+    },
+    "ஹேண்ட்ஸ்": {
+      "latin": "hands",
+      "notes": "English plural noun."
+    },
+    "ஹேப்பண்ட்": {
+      "latin": "happened",
+      "notes": "English verb."
+    },
+    "ஹேப்பி": {
+      "latin": "happy",
+      "notes": "English adjective."
+    },
+    "ஹேப்பினஸ்": {
+      "latin": "happiness",
+      "notes": "English noun."
+    },
+    "ஹேப்பியா": {
+      "latin": "happy-ஆ",
+      "notes": "English adjective with Tamil adverbial suffix."
+    },
+    "ஹேவ்": {
+      "latin": "have",
+      "notes": "English verb token, high-confidence in English phrases."
+    },
+    "ஹை": {
+      "latin": "high",
+      "notes": "English adjective."
+    },
+    "ஹையர்": {
+      "latin": "higher",
+      "notes": "English comparative adjective."
+    },
+    "ஹைலைட்": {
+      "latin": "highlight",
+      "notes": "English noun/verb."
+    },
+    "ஹொவ்": {
+      "latin": "how",
+      "notes": "English wh-token variant."
+    },
+    "ஹோட்டல்": {
+      "latin": "hotel",
+      "notes": "Common English-origin noun; can be naturalized, so keep replacement traceable."
+    },
+    "ஹோப்": {
+      "latin": "hope",
+      "notes": "English noun/verb."
+    },
+    "ஹோப்லெஸ்": {
+      "latin": "hopeless",
+      "notes": "English adjective."
+    },
+    "ஹோம்": {
+      "latin": "home",
+      "notes": "English noun."
+    },
+    "ஹோல்டர்": {
+      "latin": "holder",
+      "notes": "English noun."
+    }
+  },
+  "medium_confidence_review_first": {
+    "ஐடி": {
+      "latin_options": [
+        "IT",
+        "ID"
+      ],
+      "preferred_when_context_clear": "IT",
+      "notes": "IT or ID may be intended; do not choose without context."
+    },
+    "வீ": {
+      "latin_options": [
+        "we"
+      ],
+      "notes": "Often we in English phrases, but exact token may be risky."
+    },
+    "வி": {
+      "latin_options": [
+        "we"
+      ],
+      "notes": "Often we in English phrases, but exact token may be risky."
+    },
+    "ஆண்": {
+      "latin_options": [
+        "on"
+      ],
+      "notes": "Observed in move on phrase; Tamil ஆண் also exists, so do not apply globally."
+    },
+    "மூ": {
+      "latin_options": [
+        "move"
+      ],
+      "notes": "Only restore in phrase contexts such as move on."
+    },
+    "ஹு": {
+      "latin_options": [
+        "who"
+      ],
+      "notes": "Too short for blind application; ஹும் is often a filler/backchannel and must not become who-ம்."
+    }
+  },
+  "do_not_apply_blindly": {
+    "சினிமா": {
+      "reason": "Often naturalized in Tamil speech; only restore to cinema if the derived view explicitly wants all English-origin loanwords."
+    },
+    "டீ": {
+      "reason": "Naturalized food/drink term; can behave like Tamil vocabulary."
+    },
+    "காபி": {
+      "reason": "Naturalized food/drink term; can behave like Tamil vocabulary."
+    },
+    "டாக்டர்": {
+      "reason": "Common borrowed occupational noun; restore only if the experiment defines it as an English anchor."
+    }
+  },
+  "phrase_high_confidence": {
+    "exam பீஸ்": {
+      "latin": "exam fees",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "financial பிரைசஸ்": {
+      "latin": "financial crises",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "heart அட்டாக்கு": {
+      "latin": "heart attack",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "international பேஸ்ட் seller": {
+      "latin": "international bestseller",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "international பேஸ்ட் செல்லர்": {
+      "latin": "international bestseller",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "question ரைஸ் ஆகும்": {
+      "latin": "question arise ஆகும்",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "questions ரைஸ்": {
+      "latin": "questions raise",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "school பீஸ்": {
+      "latin": "school fees",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஃபார் எக்ஸாம்பிள்": {
+      "latin": "for example",
+      "notes": "Fixed English phrase."
+    },
+    "ஃபார் சுயர்": {
+      "latin": "for sure",
+      "notes": "Frequent fixed English phrase."
+    },
+    "ஃபார் நத்திங்": {
+      "latin": "for nothing",
+      "notes": "Fixed English phrase."
+    },
+    "ஃபில் ஆக": {
+      "latin": "feel ஆக",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஃபில் பண்ண": {
+      "latin": "feel பண்ண",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "அட் லீஸ்ட்": {
+      "latin": "at least",
+      "notes": "Spelled phrase variant."
+    },
+    "அஸ் வெல் அஸ்": {
+      "latin": "as well as",
+      "notes": "Fixed English phrase variant."
+    },
+    "அஸ் வெல்லெஸ்": {
+      "latin": "as well as",
+      "notes": "Fixed English phrase."
+    },
+    "ஆண்டர்பிரனர் ஷிப்": {
+      "latin": "entrepreneurship",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஆண்ட்ரபிரனர் ஷிப்": {
+      "latin": "entrepreneurship",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "இஃப் யு திங்க் யு கேன் யு கேன்": {
+      "latin": "if you think you can you can",
+      "notes": "Fixed motivational phrase."
+    },
+    "இட் இஸ் பாசிபில்": {
+      "latin": "it is possible",
+      "notes": "Variant of it is possible."
+    },
+    "இட்ஸ் பாசிபில்": {
+      "latin": "it's possible",
+      "notes": "Possible fixed English phrase; use only when its full meaning is supported."
+    },
+    "இப் யூ": {
+      "latin": "if you",
+      "notes": "Fixed English phrase."
+    },
+    "ஏபில் டூ": {
+      "latin": "able to",
+      "notes": "Observed variant of able to."
+    },
+    "ஏபிள் டூ": {
+      "latin": "able to",
+      "notes": "Fixed English complement phrase."
+    },
+    "ஐ ஹவ்": {
+      "latin": "I have",
+      "notes": "Fixed English phrase; avoids global ஐ mapping."
+    },
+    "ஐஸ் you": {
+      "latin": "ICU",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஐஸ் you பெட்ல": {
+      "latin": "ICU bed-ல",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஐஸ் கிரீம்": {
+      "latin": "ice cream",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஐஸ் க்ரீம்": {
+      "latin": "ice cream",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஐஸ்கிரீம்": {
+      "latin": "ice cream",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஒர்க் ஹார்ட்": {
+      "latin": "work hard",
+      "notes": "Fixed English phrase variant."
+    },
+    "ஓனர் ஷிப்": {
+      "latin": "ownership",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "காட் கிரேஸ்": {
+      "latin": "God grace",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "கான் வி": {
+      "latin": "can we",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "கார்ட்ஸ் கிரேஸ்": {
+      "latin": "God grace",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "கிரேட் பேஸ்": {
+      "latin": "great phase",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "கிவ் அப்": {
+      "latin": "give up",
+      "notes": "Fixed English phrasal verb."
+    },
+    "கேன் வி": {
+      "latin": "can we",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "கைண்ட் ஆஃப்": {
+      "latin": "kind of",
+      "notes": "Fixed English phrase."
+    },
+    "கொஸ்டின்ஸ் ரைஸ்": {
+      "latin": "questions raise",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "சென்னை பேஸ்ட் business": {
+      "latin": "Chennai-based business",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜெண்டரை பேஸ் பண்ணியும்": {
+      "latin": "gender-ஐ based பண்ணியும்",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோ skills": {
+      "latin": "Josh Skills",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோஷ் டாக்": {
+      "latin": "Josh Talk",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோஷ் டாக்ஸ்": {
+      "latin": "Josh Talks",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோஸ் case": {
+      "latin": "Josh Skills",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோஸ் கில்ஸ்": {
+      "latin": "Josh Skills",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஜோஸ்டாக்ஸ் பாட்காஸ்ட்": {
+      "latin": "Josh Talks podcast",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டர்ன் ஓவர்": {
+      "latin": "turnover",
+      "notes": "Business metric phrase."
+    },
+    "டாம் and Jerry": {
+      "latin": "Tom and Jerry",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டாம் and ஜெர்ரி": {
+      "latin": "Tom and Jerry",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டாம் and ஜோஷ்": {
+      "latin": "Tom and Josh",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டாம் அண்ட் ஜெர்ரி": {
+      "latin": "Tom and Jerry",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டிஸ்டிக் நோட": {
+      "latin": "distinction-ஓட",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டிஸ்டிக்ஸ்னோட": {
+      "latin": "distinctions-ஓட",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "டே டுடே": {
+      "latin": "day to day",
+      "notes": "Possible English phrase in a business context; inspect the whole phrase."
+    },
+    "டேக் மீ": {
+      "latin": "take me",
+      "notes": "Fixed English phrase."
+    },
+    "டேக் மீ அஸ்": {
+      "latin": "take me as",
+      "notes": "Fixed English phrase."
+    },
+    "டைப் ஆஃப்": {
+      "latin": "type of",
+      "notes": "Fixed English phrase."
+    },
+    "டோன் ஓவர்": {
+      "latin": "turnover",
+      "notes": "Possible turnover in a business context; verify the intended meaning."
+    },
+    "த மோர் யு": {
+      "latin": "the more you",
+      "notes": "Fixed English comparative phrase."
+    },
+    "த லெஸ் யு": {
+      "latin": "the less you",
+      "notes": "Fixed English comparative phrase."
+    },
+    "தக்காளி பேஸ்ட்": {
+      "latin": "tomato paste",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "தட் is": {
+      "latin": "that is",
+      "notes": "Hybrid after is replacement."
+    },
+    "தட் இஸ்": {
+      "latin": "that is",
+      "notes": "Fixed English phrase."
+    },
+    "தர் ஆர்": {
+      "latin": "there are",
+      "notes": "Fixed English existential phrase."
+    },
+    "தர் இஸ்": {
+      "latin": "there is",
+      "notes": "Fixed English existential phrase variant."
+    },
+    "தே ஆர்": {
+      "latin": "they are",
+      "notes": "Fixed English phrase."
+    },
+    "தேர் ஆர்": {
+      "latin": "there are",
+      "notes": "Fixed English existential phrase variant."
+    },
+    "தேர் இஸ்": {
+      "latin": "there is",
+      "notes": "Fixed English existential phrase."
+    },
+    "த்ரீ டு ஃபோர்": {
+      "latin": "three to four",
+      "notes": "Fixed numeric range phrase; avoids for/four ambiguity."
+    },
+    "நெறய பினான்சியல் பிரைசஸ்": {
+      "latin": "நெறய financial crises",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "நெவர் எவர்": {
+      "latin": "never ever",
+      "notes": "Fixed English phrase."
+    },
+    "நெஷ்னல் ஸ்டாக் எக்ஸ்சேஞ்ச்": {
+      "latin": "National Stock Exchange",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "நைட் ஷிப்": {
+      "latin": "night shift",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பார் sure": {
+      "latin": "for sure",
+      "notes": "Hybrid after token-level sure replacement."
+    },
+    "பார் சுயர்": {
+      "latin": "for sure",
+      "notes": "Fixed English phrase variant."
+    },
+    "பார்ட் time": {
+      "latin": "part time",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பார்ட் time ஆ": {
+      "latin": "part time-ஆ",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பார்ட் டைமா": {
+      "latin": "part time-ஆ",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பிரைசஸ் செ": {
+      "latin": "crises-ஐ",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பீஸ் இந்த school": {
+      "latin": "fees இந்த school",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பீஸ் கட்ட": {
+      "latin": "fees கட்ட",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பீஸ் கட்டி": {
+      "latin": "fees கட்டி",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பீஸ் கட்டும்போது": {
+      "latin": "fees கட்டும்போது",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பீஸ் பே": {
+      "latin": "fees pay",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பெஸ்ட் காம்போ": {
+      "latin": "best combo",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் ஆகுற": {
+      "latin": "phase ஆகுற",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ண": {
+      "latin": "face பண்ண",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ணல": {
+      "latin": "face பண்ணல",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ணி": {
+      "latin": "face பண்ணி",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ணிய": {
+      "latin": "face பண்ணிய",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ணியும்": {
+      "latin": "based பண்ணியும்",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ணோம்": {
+      "latin": "face பண்ணோம்",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்ற": {
+      "latin": "face பண்ற",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ் பண்றப்ப": {
+      "latin": "face பண்றப்ப",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ்ட் காம்போ": {
+      "latin": "best combo",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ்ட் செல்லர்": {
+      "latin": "bestseller",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ்ட் டூ": {
+      "latin": "based to",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ்ட் தக்காளி": {
+      "latin": "paste தக்காளி",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "பேஸ்ட் பண்ணி": {
+      "latin": "based பண்ணி",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "மினிமம் டிக்கெட் ரைட்ஸ்": {
+      "latin": "minimum ticket size",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "மூ ஆண்": {
+      "latin": "move on",
+      "notes": "Fixed phrase; avoids global மூ/ஆண் mapping."
+    },
+    "மை ஆல் டைம்": {
+      "latin": "my all time",
+      "notes": "Fixed phrase in motivator context."
+    },
+    "மை பிரதர்": {
+      "latin": "my brother",
+      "notes": "Fixed English kinship phrase."
+    },
+    "யு கேன்": {
+      "latin": "you can",
+      "notes": "You can spelling variant."
+    },
+    "யூ கேன்": {
+      "latin": "you can",
+      "notes": "Frequent English phrase."
+    },
+    "யூ கேன் ஏபில் டூ": {
+      "latin": "you can able to",
+      "notes": "Transcribes observed Indian-English phrase without correcting grammar."
+    },
+    "யூ கேன் கெட்": {
+      "latin": "you can get",
+      "notes": "Fixed English phrase."
+    },
+    "யூ நோ": {
+      "latin": "you know",
+      "notes": "Fixed discourse phrase."
+    },
+    "யூ ஹவ்": {
+      "latin": "you have",
+      "notes": "Fixed English phrase."
+    },
+    "யூ ஹவ் டூ": {
+      "latin": "you have to",
+      "notes": "Fixed English modal phrase."
+    },
+    "ரேஸ் பண்ண": {
+      "latin": "raise பண்ண",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ரைஸ் அதர்ஸ்": {
+      "latin": "raise others",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "லுக் வந்து": {
+      "latin": "look வந்து",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "லேண்ட் லாட்ஸ்": {
+      "latin": "landlords",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "லோயர் மிடில் கிளாஸ்": {
+      "latin": "lower middle class",
+      "notes": "Possible English social-class phrase; inspect context before replacing."
+    },
+    "வாட் இஸ்": {
+      "latin": "what is",
+      "notes": "Fixed English wh phrase."
+    },
+    "வாட்ஸ் அப்": {
+      "latin": "WhatsApp",
+      "notes": "App/platform phrase."
+    },
+    "வி ஆர்": {
+      "latin": "we are",
+      "notes": "Fixed English be phrase."
+    },
+    "வி கேன்": {
+      "latin": "we can",
+      "notes": "Fixed English modal phrase."
+    },
+    "வி சப்போர்ட்டிங்": {
+      "latin": "we supporting",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வி சா": {
+      "latin": "we saw",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வி புட்": {
+      "latin": "we put",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வி ஹவ்": {
+      "latin": "we have",
+      "notes": "Fixed English phrase variant."
+    },
+    "வி ஹேவ்": {
+      "latin": "we have",
+      "notes": "Fixed English subject+verb phrase."
+    },
+    "வி ஹேவ் டு": {
+      "latin": "we have to",
+      "notes": "Frequent English phrase; token-level வீ/we remains review-first."
+    },
+    "வித் இன் த்ரீ டு ஃபோர்": {
+      "latin": "within three to four",
+      "notes": "Fixed numeric range phrase."
+    },
+    "வீ ஆர்": {
+      "latin": "we are",
+      "notes": "Fixed English be phrase variant."
+    },
+    "வீ கேன்": {
+      "latin": "we can",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வீ ஹவ்": {
+      "latin": "we have",
+      "notes": "Fixed English phrase variant."
+    },
+    "வீ ஹேவ்": {
+      "latin": "we have",
+      "notes": "Fixed English subject+verb phrase variant."
+    },
+    "வீடியோ பிடிந்திருந்தால்": {
+      "latin": "video பிடித்திருந்தால்",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வென் வி": {
+      "latin": "when we",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "வை ஃபை": {
+      "latin": "Wi-Fi",
+      "notes": "Fixed technology phrase."
+    },
+    "வொர்க் ஹார்ட்": {
+      "latin": "work hard",
+      "notes": "Fixed English phrase; avoids hard/heart ambiguity."
+    },
+    "ஸ்டாக் market": {
+      "latin": "stock market",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்டாக் எக்ஸ்சேஞ்ச்": {
+      "latin": "stock exchange",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்டாக் மார்க்கெட்": {
+      "latin": "stock market",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்டாக் மார்க்கெட்லா": {
+      "latin": "stock market-லா",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்டாக் வைபர்": {
+      "latin": "Skype Viber",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்டாக் வைபர் லா": {
+      "latin": "Skype Viber-லா",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஸ்பீக் அவுட்": {
+      "latin": "speak out",
+      "notes": "Fixed English phrase."
+    },
+    "ஹர்ட் அட்டாக்கு": {
+      "latin": "heart attack",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹர்ட் அட்டாக்குல": {
+      "latin": "heart attack-ல",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹாட் full நர்ஸ் institute": {
+      "latin": "Heartfulness institute",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹாட் full நர்ஸ் இன்ஸ்டிட்யூட்": {
+      "latin": "Heartfulness institute",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹாட் ஃபுல் நர்ஸ் இன்ஸ்டிட்யூட்": {
+      "latin": "Heartfulness institute",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹாட் சிப்ஸ்": {
+      "latin": "hardships",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹாட் டாபிக்": {
+      "latin": "hot topic",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் work": {
+      "latin": "hard work",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் work வந்து": {
+      "latin": "hard work வந்து",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் ஒர்க்க": {
+      "latin": "hard work",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் ஒர்க்கை": {
+      "latin": "hard work-ஐ",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் ஓர்க்": {
+      "latin": "hard work",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹார்ட் வொர்க்": {
+      "latin": "hard work",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹி was": {
+      "latin": "he was",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹி மேன்": {
+      "latin": "He-Man",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹி ஸ்": {
+      "latin": "he is",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹீர் சேலரி guts": {
+      "latin": "had salary cuts",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹீர் ஷ்": {
+      "latin": "hear she",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹீர் ஷ் what ஷி": {
+      "latin": "hear what she",
+      "notes": "Reviewed phrase-level high-confidence normalization; avoids unsafe blanket token replacement."
+    },
+    "ஹை குவாலிட்டி": {
+      "latin": "high quality",
+      "notes": "Business/customer phrase."
+    }
+  }
+}
